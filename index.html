@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090e16">
+  <meta name="description" content="HELLO WORLD Markets（HWMarkets）は、世界の株価指数・為替・商品とCoinMarketCapの暗号資産時価総額TOP50を見渡せる日本語ダッシュボード。Hyperliquidの株式・指数先物一覧・価格チャートにも対応。指数・商品にはCFDを使用しています。">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="FS7pqHEbJr3FLyCGd8k4SWbSWr0KF9YdGQeqQ73m-Jo">
+  <title>HELLO WORLD Markets（HWMarkets）| 世界の株価指数・為替・暗号資産</title>
+  <link rel="canonical" href="https://orbit-markets-jp.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="HELLO WORLD Markets">
+  <meta property="og:url" content="https://orbit-markets-jp.vercel.app/">
+  <meta property="og:title" content="HELLO WORLD Markets（HWMarkets）| 世界の株価指数・為替・暗号資産">
+  <meta property="og:description" content="世界の株価指数・為替・暗号資産・商品を、自分だけのウォッチリストで。指数・商品にはCFDを使用しています。">
+
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "HELLO WORLD Markets",
+    "alternateName": "HWMarkets",
+    "url": "https://orbit-markets-jp.vercel.app/",
+    "description": "世界の株価指数・為替・暗号資産・商品を見渡せる日本語マーケットダッシュボード。指数・商品にはCFDを使用しています。",
+    "inLanguage": "ja"
+  }
+  </script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="crypto-top50.css">
+  <script src="crypto-top50.js" defer></script>
+  <link rel="stylesheet" href="hyperliquid.css">
+  <script src="hyperliquid.js" defer></script>
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="account.css">
+  <script src="account.js" defer></script>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="portfolio-japan.css">
+  <script type="module" src="portfolio.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">メインコンテンツへ</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="メインナビゲーション">
+      <a class="brand" href="./" aria-label="HELLO WORLD Markets ホーム">
+        <svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true"><rect x="1" y="1" width="34" height="34" rx="9" fill="#122724" stroke="currentColor" stroke-opacity=".3"/><path d="M6 11v14m0-7h7m0-7v14m4-14 3 14 4-10 4 10 3-14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="brand-name"><strong>HELLO WORLD</strong><small>Markets</small></span>
+      </a>
+      <div class="nav-caption">WORKSPACE</div>
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-page="all" aria-current="page"><span data-icon="grid"></span><span>マーケット概況</span></button>
+        <button class="nav-item" data-page="watchlist"><span data-icon="star"></span><span>ウォッチリスト</span><b class="nav-count" id="watchCount">0</b></button>
+        <button class="nav-item" data-page="portfolio"><span data-icon="layers"></span><span>ポートフォリオ</span></button>
+        <div class="nav-caption">ASSET CLASSES</div>
+        <button class="nav-item" data-page="indices"><span data-icon="chart"></span><span>株価指数</span></button>
+        <button class="nav-item" data-page="forex"><span data-icon="exchange"></span><span>為替</span></button>
+        <button class="nav-item" data-page="crypto"><span data-icon="bitcoin"></span><span>暗号資産</span></button>
+        <button class="nav-item" data-page="dex"><span data-icon="exchange"></span><span>株式・指数先物</span></button>
+        <button class="nav-item" data-page="commodities"><span data-icon="layers"></span><span>コモディティ</span></button>
+        <div class="nav-caption">INSIGHTS</div>
+        <a class="nav-item" href="/ai-news"><span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2V5Z"/><path d="M17 9h3v8a2 2 0 0 1-2 2h-1M7 9h7M7 13h7M7 16h4"/></svg></span><span>ニュース</span></a>
+      </nav>
+      <div class="sidebar-footer">
+        <div><span class="connection-dot"></span> YOUR WORLD, YOUR MARKETS</div>
+        <p class="sidebar-note">世界の動きを、<br>あなたのペースで。</p>
+        <button id="aboutButton" class="text-button"><span data-icon="info"></span>このサイトについて</button>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <a class="mobile-brand" href="./" aria-label="HELLO WORLD Markets ホーム">HW<span>Markets</span></a>
+        <div class="breadcrumb"><span>ワークスペース</span><span data-icon="chevron"></span><b id="breadcrumbCurrent">マーケット概況</b></div>
+        <div class="topbar-actions">
+          <span class="session-badge"><i></i> MARKET DATA</span>
+          <button class="icon-button" id="refreshButton" aria-label="市場データを再読み込み" title="市場データを再読み込み"><span data-icon="refresh"></span></button>
+          <button class="icon-button" id="settingsButton" aria-label="表示設定" title="表示設定"><span data-icon="settings"></span></button>
+          <button class="hw-account-button" id="accountButton" aria-haspopup="dialog" aria-controls="accountDialog" aria-label="ログイン"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg><span id="accountButtonLabel">ログイン</span></button>
+          <button class="hw-account-button hw-signup-button" id="signupButton" aria-haspopup="dialog" aria-controls="accountDialog">新規登録</button>
+        </div>
+      </header>
+      <main id="main">
+        <nav class="mobile-nav" aria-label="マーケットメニュー"><button data-page="all" class="active">概況</button><button data-page="watchlist">ウォッチリスト</button><button data-page="portfolio">ポートフォリオ</button><button data-page="indices">株価指数</button><button data-page="forex">為替</button><button data-page="crypto">暗号資産</button><button data-page="dex">株式・指数先物</button><button data-page="commodities">商品</button><a href="/ai-news">ニュース</a></nav>
+        <section class="page-intro">
+          <div class="intro-copy"><div class="eyebrow">GLOBAL MARKET OVERVIEW <span class="eyebrow-line"></span></div><h1 id="pageTitle">世界のマーケットを、<span>一つの視界に。</span></h1><p id="pageDescription">主要指数から為替まで。いま見たい市場を、あなたらしく。</p></div>
+          <div class="intro-actions"><span class="timezone-tag"><span data-icon="clock"></span><span id="localDate"></span></span><button class="button button-primary" id="addButton"><span data-icon="plus"></span>銘柄を追加</button></div>
+        </section>
+        <section class="market-strip" aria-label="世界の現在時刻">
+          <div class="strip-label"><span data-icon="globe"></span><span>WORLD CLOCK<small>世界の取引時間</small></span></div>
+          <div class="world-clock"><span class="clock-city">TOKYO</span><b id="clockTokyo">--:--:--</b><span class="clock-status" id="statusTokyo">通常時間外</span></div>
+          <div class="world-clock"><span class="clock-city">LONDON</span><b id="clockLondon">--:--:--</b><span class="clock-status" id="statusLondon">通常時間外</span></div>
+          <div class="world-clock"><span class="clock-city">NEW YORK</span><b id="clockNewYork">--:--:--</b><span class="clock-status" id="statusNewYork">通常時間外</span></div>
+          <span class="clock-footnote">通常取引時間の目安<br>祝日・臨時休場は未反映</span>
+        </section>
+        <section id="watchlistTabs" class="watchlist-tabs" aria-label="ウォッチリストの種類" hidden><div class="watchlist-tab-buttons" role="group" aria-label="ウォッチリストを切り替え"><button data-watch-class="futures" aria-pressed="true">株式・指数先物 <span>0</span></button><button data-watch-class="crypto" aria-pressed="false">暗号資産 <span>0</span></button><button data-watch-class="standard" aria-pressed="false">指数・為替ほか <span>3</span></button></div><div class="watch-view-bar" id="watchViewBar"><span>表示形式</span><div class="watch-view-buttons segmented-control" role="group" aria-label="ウォッチリストの表示形式"><button data-watch-view="charts" aria-pressed="true">簡易チャート</button><button data-watch-view="list" aria-pressed="false">一覧</button></div></div><p>各一覧の☆で追加・解除できます。ゲストはこのブラウザに、ログイン中はアカウント別に保存します。</p></section>
+        <section id="portfolioPage" class="pf-page" aria-label="保有資産のポートフォリオ" hidden></section>
+        <section id="cryptoRankings" hidden aria-label="暗号資産の時価総額TOP50"></section>
+        <section id="dexMarkets" hidden aria-label="Hyperliquidの株式・指数連動無期限契約とチャート"></section>
+        <section id="marketDashboard" class="dashboard-panel" aria-labelledby="marketHeading">
+          <div class="panel-toolbar"><div class="panel-heading"><h2 id="marketHeading">マーケットボード</h2><span class="count-label" id="marketCount">8 MARKETS</span><span class="board-range-label">1か月チャート</span></div><div class="view-toggle" aria-label="表示形式"><button id="gridView" class="active" aria-label="標準表示" aria-pressed="true"><span data-icon="grid"></span></button><button id="compactView" aria-label="コンパクト表示" aria-pressed="false"><span data-icon="list"></span></button></div></div>
+          <div class="filters-row"><div class="filter-tabs" role="group" aria-label="市場を絞り込む"><button class="filter-tab active" data-filter="all" aria-pressed="true">すべて</button><button class="filter-tab" data-filter="japan" aria-pressed="false">日本</button><button class="filter-tab" data-filter="us" aria-pressed="false">米国</button><button class="filter-tab" data-filter="europe" aria-pressed="false">欧州</button><button class="filter-tab" data-filter="asia" aria-pressed="false">アジア</button><button class="filter-tab" data-filter="favorites" aria-pressed="false"><span data-icon="star"></span>お気に入り</button></div><label class="search-box"><span data-icon="search"></span><input id="marketSearch" type="search" placeholder="銘柄・シンボルを検索" aria-label="銘柄・シンボルを検索"><kbd>/</kbd></label></div>
+          <div id="marketGrid" class="market-grid" aria-live="polite"></div>
+          <div class="empty-state" id="emptyState" hidden><span data-icon="search"></span><h3>該当する銘柄がありません</h3><p>検索条件を変えるか、銘柄をボードに追加してください。</p><button class="button" id="resetFilters">条件をクリア</button></div>
+        </section>
+        <section class="lower-grid" id="standardCharts">
+          <article class="feature-panel" aria-labelledby="chartHeading"><div class="section-heading"><div><div class="eyebrow">MARKET FOCUS</div><h2 id="chartHeading">もう一歩、マーケットの奥へ。</h2></div><span class="chart-live-label"><i></i> 詳細チャート</span></div><div class="feature-toolbar"><label class="sr-only" for="chartSymbol">詳細チャートの銘柄</label><select id="chartSymbol"></select><div class="period-tabs" role="group" aria-label="チャートの期間"><button data-range="1D">1日</button><button data-range="1M" class="active" aria-pressed="true">1か月</button><button data-range="3M">3か月</button><button data-range="12M">1年</button><button data-range="60M">5年</button></div></div><div id="mainChart" class="main-chart"></div><p id="cryptoChartNote" class="session-note" hidden>詳細チャートはTradingViewの取引所別価格です。上のCoinMarketCapの集計価格とは異なる場合があります。</p></article>
+          <article class="sessions-panel"><div class="section-heading"><div><div class="eyebrow">FOLLOW THE SUN</div><h2>世界の取引セッション</h2></div><span data-icon="globe"></span></div><div class="session-list" id="sessionList"></div><p class="session-note"><span data-icon="info"></span>通常の現物取引時間を表示。祝日・短縮取引は各取引所をご確認ください。</p><a class="session-link" href="https://www.jpx.co.jp/equities/trading/domestic/01.html" target="_blank" rel="noopener noreferrer">JPXの取引時間<span data-icon="arrow"></span></a></article>
+        </section>
+        <div class="data-footer" id="standardDataFooter"><div class="data-source"><span class="connection-dot"></span><span>チャート提供：<a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">TradingView</a><small>指数・商品にはCFDを使用。現物指数とは価格や取引時間が異なります。市場により遅延を含みます。</small></span></div><button id="dataInfoButton" class="text-button">データについて<span data-icon="arrow"></span></button></div>
+        <section class="feature-panel" aria-labelledby="overviewHeading" style="margin-bottom: 24px;">
+          <div class="section-heading"><div><div class="eyebrow">ABOUT HELLO WORLD MARKETS</div><h2 id="overviewHeading">世界の市場を、自分のウォッチリストで</h2></div></div>
+          <div class="info-body" style="padding: 0 21px 21px;">
+            <p>HELLO WORLD Markets（HWMarkets）は、世界の株価指数、為替、暗号資産、コモディティのチャートをまとめて確認できる日本語のマーケットダッシュボードです。日本225、S&amp;P 500、NASDAQ 100、米ドル／円、ビットコイン、ゴールドなどから気になる銘柄を選べます。</p>
+            <p>暗号資産ページでは、CoinMarketCapの時価総額ランキング上位50銘柄を米ドルで表示します。ステーブルコインを含む順位・価格・24時間と7日間の騰落率・時価総額・24時間出来高を確認でき、検索や並べ替えに対応します。</p>
+            <p>株式・指数先物ページではHyperliquid上のtrade[XYZ]が提供する株式・ETF・株価指数連動の無期限契約を一覧表示。銘柄を選ぶと、同取引所のローソク足・出来高チャートを1日、1週間、1か月で切り替えられます。価格、24時間騰落率、出来高、建玉、1時間あたりの資金調達率を確認できます。</p>
+            <p>ポートフォリオでは現物株式と暗号資産の保有数量・平均購入単価を入力し、円換算した評価額・含み損益・資産配分を確認できます。日本株の会社検索とCSVの一括取り込みに対応。株式は手入力またはCSVの現在値、暗号資産はTOP50の自動価格または手入力を使います。保有情報は端末内だけに保存し、バックアップと復元に対応しています。</p>
+            <p>銘柄検索や地域別の絞り込み、お気に入り登録に対応。登録せずに利用でき、ウォッチリストは利用中のブラウザに保存されます。メールの認証リンクでアカウントを作成・ログインでき、設定の保存・同期状況はアカウント画面で確認できます。詳細チャートの表示期間を切り替えながら、市場の動きを確認できます。チャートはTradingViewが提供し、指数・商品にはCFDを使用しています。現物指数とは価格や取引時間が異なり、市場により遅延を含みます。</p>
+          </div>
+        </section>
+        <footer class="site-footer"><span>© <span id="currentYear"></span> HELLO WORLD Markets</span><div class="footer-links"><span>Made for your perspective.</span><button class="text-button" id="privacyButton">プライバシー</button></div></footer>
+      </main>
+    </div>
+  </div>
+  <dialog class="modal" id="addDialog" aria-labelledby="addDialogTitle"><div class="modal-heading"><div><div class="eyebrow">YOUR PERSONAL BOARD</div><h2 id="addDialogTitle">銘柄を追加</h2></div><button class="icon-button" data-close aria-label="閉じる"><span data-icon="close"></span></button></div><p class="modal-description">ボードに表示する銘柄を選んでください。設定はこのブラウザに保存されます。</p><label class="modal-search search-box"><span data-icon="search"></span><input type="search" id="addSearch" placeholder="名前・シンボルで探す" aria-label="追加する銘柄を検索"></label><div class="symbol-picker" id="symbolPicker"></div><div class="modal-actions"><button class="button button-primary" data-close>完了</button></div></dialog>
+  <dialog class="modal" id="settingsDialog" aria-labelledby="settingsTitle"><div class="modal-heading"><h2 id="settingsTitle">表示設定</h2><button class="icon-button" data-close aria-label="閉じる"><span data-icon="close"></span></button></div><div class="settings-group"><div class="settings-label"><strong>カードの表示</strong><small>ひと目で見渡せる情報量を調整</small></div><div class="segmented-control"><button data-layout="normal">標準</button><button data-layout="compact">コンパクト</button></div></div><div class="settings-group"><div class="settings-label"><strong>ウォッチリストの表示</strong><small>先物・暗号資産の表示を切り替え</small></div><div class="watch-view-buttons segmented-control" role="group" aria-label="ウォッチリストの表示形式"><button data-watch-view="charts" aria-pressed="true">簡易チャート</button><button data-watch-view="list" aria-pressed="false">一覧</button></div></div><div class="settings-group"><div class="settings-label"><strong>初期ボードに戻す</strong><small>追加銘柄・お気に入り・表示設定をリセット</small></div><button class="button" id="resetBoard">リセット</button></div><p class="modal-description">ダークテーマ / 日本語 / 詳細チャートは日本時間（JST）</p></dialog>
+  <dialog class="modal" id="infoDialog" aria-labelledby="infoTitle"><div class="modal-heading"><h2 id="infoTitle">HELLO WORLD Marketsについて</h2><button class="icon-button" data-close aria-label="閉じる"><span data-icon="close"></span></button></div><div id="infoBody" class="info-body"></div><div class="modal-actions"><button class="button" data-close>閉じる</button></div></dialog>
+  <dialog class="modal hw-account-dialog" id="accountDialog" aria-labelledby="accountTitle">
+    <div class="modal-heading"><div><div class="eyebrow">YOUR MARKETS, ANYWHERE</div><h2 id="accountTitle">ログイン</h2></div><button class="icon-button" data-close aria-label="アカウント画面を閉じる"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div>
+    <div id="accountContent" aria-live="polite"><p class="hw-account-lead">アカウントを確認しています…</p></div>
+    <p class="hw-account-privacy">メールアドレスは登録・本人確認に使用します。認証にはDescopeを利用します。<a href="https://www.descope.com/privacy" target="_blank" rel="noopener noreferrer">プライバシーポリシー ↗</a></p>
+  </dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <noscript><p>マーケットの表示にはJavaScriptを有効にしてください。</p></noscript>
+</body>
+</html>

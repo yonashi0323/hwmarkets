@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.hw-account-button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; flex: 0 0 auto; min-height: 34px; max-width: 170px; margin-left: 8px; padding: 7px 11px; border: 1px solid #2c4b46; border-radius: 7px; color: #afd7cc; background: #122724; font-size: 10px; white-space: nowrap; }
+.hw-account-button:hover { border-color: #58e1bd; color: #d9fff2; }
+.hw-signup-button { margin-left: 0; background: #58e1bd; color: #09241c; border-color: #58e1bd; }
+.hw-signup-button:hover { background: #7decca; color: #09241c; }
+.hw-signup-button[hidden] { display: none; }
+.hw-account-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 0 0 20px; padding: 4px; border: 1px solid #293b50; border-radius: 9px; background: #09121e; }
+.hw-account-modes button { min-height: 39px; border-radius: 6px; color: #8095ad; font-size: 12px; }
+.hw-account-modes button[aria-pressed="true"] { color: #baf8e3; background: #193b33; }
+.hw-account-switch { display: flex; }
+.hw-account-button svg { width: 14px; height: 14px; }
+.hw-account-button span { overflow: hidden; text-overflow: ellipsis; }
+.hw-account-button.is-signed-in::after { content: ""; width: 5px; height: 5px; flex-shrink: 0; border-radius: 50%; background: #58e1bd; }
+.hw-account-dialog .eyebrow { margin-bottom: 7px; color: #7a9c93; font-size: 8px; letter-spacing: 1.8px; }
+.hw-account-dialog .modal-heading { align-items: flex-start; margin-bottom: 20px; }
+.hw-account-dialog .modal-heading .icon-button { flex-shrink: 0; }
+.hw-account-dialog h2 { line-height: 1.5; }
+.hw-account-lead { margin: 0 0 19px; color: #a6b7ca; font-size: 12px; line-height: 1.9; }
+.hw-account-form { display: grid; gap: 10px; }
+.hw-account-label { color: #c0cfdf; font-size: 11px; }
+.hw-account-input { width: 100%; min-height: 45px; padding: 10px 12px; border: 1px solid #33465d; border-radius: 7px; color: #e4edf8; background: #09121e; font-size: 14px; }
+.hw-account-input::placeholder { color: #65788f; }
+.hw-account-form .button, .hw-account-card .button { justify-content: center; min-height: 42px; font-size: 12px; }
+.hw-account-form .button { margin-top: 5px; width: 100%; }
+.hw-account-hint { margin-top: 8px; color: #748aa3; font-size: 10px; line-height: 1.9; }
+.hw-account-hint strong { color: #a9bacc; font-weight: 500; }
+.hw-account-message { margin: 14px 0; padding: 12px 14px; border: 1px solid #2d5148; border-radius: 7px; color: #b6ddcf; background: #132c27; font-size: 11px; line-height: 1.9; overflow-wrap: anywhere; }
+.hw-account-message.is-error { border-color: #60424c; background: #2a1c27; color: #f0b3bf; }
+.hw-account-status { margin: 11px 0 0; color: #94a8be; font-size: 11px; line-height: 1.8; }
+.hw-account-status.is-error { color: #f0b3bf; }
+.hw-account-profile { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+.hw-account-profile-icon { display: grid; place-items: center; width: 44px; height: 44px; flex: 0 0 auto; border: 1px solid #31564b; border-radius: 11px; color: #66dcba; background: #16332c; }
+.hw-account-profile-icon svg { width: 21px; height: 21px; }
+.hw-account-profile strong { display: block; color: #d8e4f1; font-size: 13px; font-weight: 550; overflow-wrap: anywhere; }
+.hw-account-profile small { display: block; margin-bottom: 3px; color: #739789; font-size: 9px; letter-spacing: 1.1px; }
+.hw-account-card { padding: 15px; border: 1px solid #293b50; border-radius: 9px; background: #0d1724; }
+.hw-account-card h3 { margin: 0 0 6px; color: #c9d9e9; font-size: 12px; font-weight: 550; }
+.hw-account-card p { color: #8ca1b8; font-size: 11px; line-height: 1.9; }
+.hw-account-card .button { margin-top: 13px; width: 100%; border-color: #36564d; }
+.hw-account-secondary { display: inline-flex; align-items: center; justify-content: center; min-height: 36px; margin-top: 14px; padding: 5px 0; color: #9bb4c8; font-size: 11px; text-decoration: underline; text-underline-offset: 4px; }
+.hw-account-secondary:hover { color: #58e1bd; }
+.hw-account-privacy { margin: 22px 0 0; padding-top: 16px; border-top: 1px solid #293a4f; color: #6f859e; font-size: 9px; line-height: 1.9; }
+.hw-account-privacy a { color: #9bb3c7; text-decoration: underline; text-underline-offset: 3px; }
+.hw-auth-page { display: grid; min-height: 100dvh; place-items: center; padding: 28px 18px; background: radial-gradient(ellipse at 50% 5%, #123028 0, #090e16 55%); }
+.hw-auth-shell { width: min(100%, 460px); }
+.hw-auth-brand { display: flex; align-items: center; gap: 10px; margin-bottom: 26px; color: #58e1bd; }
+.hw-auth-brand svg { width: 36px; height: 36px; }
+.hw-auth-brand strong { color: #d9e6ee; font-size: 13px; letter-spacing: 1px; }
+.hw-auth-brand small { display: block; color: #7b9b96; font-size: 10px; letter-spacing: 2px; }
+.hw-auth-card { padding: 29px; border: 1px solid #2a443f; border-radius: 14px; background: #111b29; box-shadow: 0 24px 80px #0005; }
+.hw-auth-card .eyebrow { margin-bottom: 8px; color: #729b8f; font-size: 9px; letter-spacing: 2px; }
+.hw-auth-card h1 { margin-bottom: 17px; color: #e3edf6; font-size: 23px; font-weight: 600; letter-spacing: -.4px; }
+.hw-auth-card a.button { display: flex; justify-content: center; min-height: 42px; margin-top: 18px; font-size: 12px; }
+@media (max-width: 600px) { .hw-account-button { gap: 5px; min-height: 31px; margin-left: 2px; padding: 6px 8px; font-size: 9px; } .hw-account-button svg { width: 13px; height: 13px; } .topbar-actions .session-badge { display: none; } .hw-account-dialog .modal-heading h2 { font-size: 17px; } .hw-auth-card { padding: 24px 21px; } }
+@media (max-width: 370px) { .hw-account-button { max-width: 104px; } .hw-account-button svg { display: none; } }

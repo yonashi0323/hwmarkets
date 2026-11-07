@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
+  "items": [
+    {
+      "id": "2026-11-05-kalshi-equity-perps-launch",
+      "date": "2026-11-05",
+      "title": "Kalshi、米国で個別株パーペチュアル先物の取引を開始 50銘柄超を上場",
+      "summary": "予測市場取引所Kalshiは2026年11月5日、個別株式の無期限先物（セキュリティ先物）の連続上場を開始したと発表した。AppleやNVIDIAなど50銘柄超が対象。CFTC提出書類では同4日付で認可済み契約の最小取引単位を変更し、5日から連続上場すると記載されている。CFTCとSECの共同監督下の商品。",
+      "category": "規制・政策",
+      "sourceName": "米CFTC（Kalshi製品認証提出）",
+      "sourceUrl": "https://www.cftc.gov/filings/ptc/ptc11042642500.pdf",
+      "verifiedAt": "2026-11-07T06:08:39+09:00",
+      "relatedSources": [
+        {
+          "name": "Kalshi（公式発表）",
+          "url": "https://news.kalshi.com/p/kalshi-single-stock-perpetual-futures"
+        },
+        {
+          "name": "米CFTC（Equity Perps声明）",
+          "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326"
+        }
+      ],
+      "marketNote": "CFTCの個別株パープ解禁後、米国内での初の本格上場。オフショアパープのオンショア化材料。",
+      "tickers": [
+        "NVDA",
+        "AAPL",
+        "TSLA",
+        "META"
+      ]
+    },
+    {
+      "id": "2026-11-04-circle-q3",
+      "date": "2026-11-04",
+      "title": "Circle 7〜9月期、売上高・準備金収入8.65億ドル USDC平均流通は733億ドル",
+      "summary": "Circle Internet Group（NYSE: CRCL）は2026年7〜9月期決算を発表し、売上高と準備金収入の合計が8億6,500万ドル（前年同期比17%増）、継続事業の純利益は2億2,600万ドル（同5%増）でした。期間中のUSDC平均流通量は733億ドル（同8%増）、オンチェーン取引量は13.9兆ドル（同49%増）。調整後EBITDAは3億1,700万ドル（同85%増）です。",
+      "category": "決算・企業",
+      "sourceName": "米SEC EDGAR（Circle 決算発表）",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/finalq3epr-110326.htm",
+      "marketNote": "主要ステーブルコイン発行体の四半期実績。USDC流通・準備金収益の動向はステーブルコイン市場全体の指標。銘柄はCRCL。",
+      "tickers": [
+        "CRCL",
+        "USDC"
+      ],
+      "verifiedAt": "2026-11-06T07:20:00+09:00"
+    },
+    {
+      "id": "2026-11-03-cboe-cftc-equity-perps-suit",
+      "date": "2026-11-03",
+      "title": "Cboeなど、個別株パーペチュアル承認を巡りCFTCを提訴",
+      "summary": "Cboe Global Marketsは、Citadel SecuritiesやHealthy Markets Associationなどと構成するCapital Markets Allianceとして、米CFTCによる個別株・ETFの無期限先物（パーペチュアル）承認への法的異議に加わると発表しました。これらの商品は証券規制の枠組みで扱うべきだとし、差し止め救済も求めています。CFTCは同日、Equity Perpsの取引を解禁したと発表していました。",
+      "category": "規制・政策",
+      "sourceName": "Cboe（PR Newswire）",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/cboe-joins-capital-markets-alliance-challenge-to-cftc-approval-of-single-stock-perpetual-derivatives-302928156.html",
+      "relatedSources": [
+        {
+          "name": "米CFTC（Equity Perps声明）",
+          "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326"
+        }
+      ],
+      "marketNote": "個別株パーペチュアルの国内上場可否が法廷で争点に。当サイトの株式・指数先物（Hyperliquid）と同種商品の規制環境にも影響し得る材料。",
+      "tickers": [
+        "CBOE"
+      ],
+      "verifiedAt": "2026-11-06T07:20:00+09:00"
+    },
+    {
+      "id": "2026-11-03-cftc-equity-perps",
+      "date": "2026-11-03",
+      "title": "米CFTC、個別株の無期限先物（パーペチュアル）の取引を初めて解禁",
+      "summary": "米商品先物取引委員会（CFTC）のセリグ委員長は、個別株を対象とする無期限先物（Equity Perps）が、SECにも登録した指定契約市場で初めて取引できるようになったと発表しました。無期限先物を米国の規制市場に取り込む動きで、CFTCは今年、初のビットコイン無期限先物の上場も承認しています。商品はCFTCとSEC双方の規制の対象となります。",
+      "category": "規制・政策",
+      "sourceName": "米CFTC（委員長声明）",
+      "sourceUrl": "https://www.cftc.gov/PressRoom/PressReleases/9319-26",
+      "relatedSources": [
+        {
+          "name": "CFTC（声明全文）",
+          "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement110326"
+        }
+      ],
+      "marketNote": "CFTCは海外の規制が緩い取引所に流れていた需要を国内の規制市場へ取り込む狙いを示しています。当サイトの「株式・指数先物」ページで扱うHyperliquidの株式連動無期限契約と同種の商品です。",
+      "tickers": [],
+      "verifiedAt": "2026-11-05T09:16:00+09:00"
+    },
+    {
+      "id": "2026-11-01-binance-net-outflows",
+      "date": "2026-11-01",
+      "title": "Binance、出金再開初日に36.4億ドルの純流出 総資産の2.1%",
+      "summary": "大規模ハッキングで停止していたBinanceの出金が11月1日に段階的に再開され、同日（UTC 6時〜15時30分）の出金は46.5億ドル、入金は10.1億ドルで、差し引き36.4億ドルの純流出となりました。準備金証明ベースの総資産1,710億ドルの2.1%にあたります。Binanceは被害額の約95%を自社資金で補填済みとしています。",
+      "category": "取引所・セキュリティ",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html",
+      "marketNote": "最大手取引所からの資金移動の規模を示す指標。BNBや取引所関連銘柄、ステーブルコインの需給に注目。",
+      "tickers": [
+        "BNB",
+        "BTC"
+      ],
+      "verifiedAt": "2026-11-05T09:16:00+09:00"
+    },
+    {
+      "id": "2026-10-29-binance-hack",
+      "date": "2026-10-29",
+      "title": "Binanceで約63億ドル相当の暗号資産が流出 FBIは北朝鮮の犯行と断定",
+      "summary": "世界最大の暗号資産取引所Binanceで、約63億ドル相当の暗号資産が流出しました。Binanceは損失を全額負担するとして入出金を一時停止し、発表時点で約30億ドル相当が凍結されました。FBIは10月31日、北朝鮮の「TraderTraitor」による犯行と発表し、盗まれた資産が主にイーサリアム（ETH）へ交換されていると警告しています。",
+      "category": "取引所・セキュリティ",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html",
+      "relatedSources": [
+        {
+          "name": "FBI（公式アラート）",
+          "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+        }
+      ],
+      "marketNote": "過去最大規模の暗号資産流出。発生直後はビットコインが7万8,000ドルを割り込むなど、市場心理の悪化要因に。",
+      "tickers": [
+        "BNB",
+        "BTC",
+        "ETH"
+      ],
+      "verifiedAt": "2026-11-05T09:16:00+09:00"
+    },
+    {
+      "id": "2026-10-29-coinbase-q3",
+      "date": "2026-10-29",
+      "title": "Coinbase 7〜9月期、純利益7億1,870万ドル 総収益は前年比35%減",
+      "summary": "米暗号資産取引所Coinbaseの2026年7〜9月期決算で、総収益は12億1,560万ドルと前年同期の18億6,870万ドルから減少しました。一方、保有暗号資産の評価益により純利益は7億1,870万ドル（前年同期4億3,260万ドル）に増えました。調整後EBITDAは3億3,290万ドル。Coinbase製品内のUSDC平均保有額は過去最高の220億ドルでした。",
+      "category": "決算・企業",
+      "sourceName": "米SEC EDGAR（Coinbase 10-Q）",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000122/coin-20260930.htm",
+      "relatedSources": [
+        {
+          "name": "Coinbase 決算発表（Nasdaq掲載）",
+          "url": "https://www.nasdaq.com/press-release/coinbase-q3-2026-earnings-show-all-time-high-coinbase-one-subscribers-and-prediction"
+        }
+      ],
+      "marketNote": "取引手数料収入の減少と、サブスクリプション・サービス収入（純収益の49%）への分散が焦点。COINの株価材料。",
+      "tickers": [
+        "COIN"
+      ],
+      "verifiedAt": "2026-11-05T09:16:00+09:00"
+    },
+    {
+      "id": "2026-10-29-strategy-q3",
+      "date": "2026-10-29",
+      "title": "Strategy、7〜9月期に純利益195億ドル ビットコイン保有は84万8,517BTCに",
+      "summary": "ビットコインを大量保有する米Strategy（旧MicroStrategy）は、7〜9月期の純利益が195億3,000万ドルだったと発表しました。デジタル資産の評価益209億1,000万ドルが主因です。10月25日時点の保有は84万8,517BTCで、取得原価640億2,000万ドル、時価689億ドル（1BTC＝約8万1,200ドル換算）。CFOのアンドリュー・カン氏は11月5日付で退任します。",
+      "category": "決算・企業",
+      "sourceName": "Strategy（公式プレスリリース）",
+      "sourceUrl": "https://www.strategy.com/press/strategy-announces-third-quarter-2026-financial-results_10-29-2026",
+      "marketNote": "最大の上場ビットコイン保有企業。業績はBTC価格に大きく連動し、MSTRや同社の優先株（STRCなど）の値動きに影響。",
+      "tickers": [
+        "MSTR",
+        "BTC"
+      ],
+      "verifiedAt": "2026-11-05T09:16:00+09:00"
+    }
+  ],
+  "updatedAt": "2026-11-07T06:09:15+09:00"
+}

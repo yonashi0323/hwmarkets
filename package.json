@@ -1,0 +1,11 @@
+{
+  "name": "hwmarkets",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "@descope/node-sdk": "2.20.0"
+  }
+}

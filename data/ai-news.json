@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-07T06:09:12+09:00",
+  "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
+  "items": [
+    {
+      "id": "2026-11-05-openai-community-compact",
+      "date": "2026-11-05",
+      "title": "OpenAI、自社運営のデータセンター向けコミュニティ憲章と政策提言を公表",
+      "summary": "OpenAIは2026年11月5日、自社が所有・運営する将来の計算キャンパス向けに「National Community Compact」と政策ブループリントを公表した。電力・インフラ費用の全額負担、水道・騒音の公開、公職者とのNDA原則禁止、地元雇用の年次報告などを約束。家庭の電気料金転嫁を防ぐ規制も提案している。",
+      "category": "半導体・インフラ",
+      "sourceName": "OpenAI（公式発表）",
+      "sourceUrl": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "verifiedAt": "2026-11-07T06:08:39+09:00",
+      "relatedSources": [
+        {
+          "name": "CNBC（CFOインタビュー・中間選挙後の投資方針）",
+          "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html"
+        }
+      ],
+      "marketNote": "データセンター建設への反発が強まる中での対応。AIインフラ関連株のセンチメント材料。",
+      "tickers": [
+        "MSFT",
+        "NVDA"
+      ]
+    },
+    {
+      "id": "2026-11-05-google-wyoming-datacenter",
+      "date": "2026-11-05",
+      "title": "Google、ワイオミング州に初のデータセンター 投資額は170億ドル",
+      "summary": "Googleは、ワイオミング州ララミー郡に同社初のデータセンターを建設すると発表し、長期投資額を170億ドルとしました。Tallgrass Energy、Black Hills Energy、American Electric Power（AEP）、Related Digitalと提携し、AEP契約の702メガワット級燃料電池（Bloom Energy製）と炭素回収・貯留を組み合わせると説明しています。冷却は空冷で、地域の水資源への負荷を抑える方針です。",
+      "category": "半導体・インフラ",
+      "sourceName": "Google（公式ブログ）",
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+      "marketNote": "AIインフラ投資の継続を示す材料。Alphabet（GOOGL）や、燃料電池を供給するBloom Energy（BE）の動向にも注目。",
+      "tickers": [
+        "GOOGL",
+        "BE"
+      ],
+      "verifiedAt": "2026-11-06T07:20:00+09:00"
+    },
+    {
+      "id": "2026-11-05-openai-gpt6-cyber",
+      "date": "2026-11-05",
+      "title": "OpenAI、サイバー防御向け「GPT-6 Cyber」を限定公開 危険度はCritical",
+      "summary": "OpenAIは、認可された脆弱性調査向けモデル「GPT-6 Cyber」を、審査済みのDaybreak Red顧客の一部へ提供開始しました。準備フレームワーク上のサイバーセキュリティ危険度を、前世代のHighからCriticalへ引き上げています。社内検証ではFirefoxで未知の高深刻度脆弱性81件、Linuxで権限昇格の実用エクスプロイト948件を確認したとしています。",
+      "category": "AIモデル",
+      "sourceName": "OpenAI（公式発表）",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "marketNote": "サイバー防御用途のフロンティアモデル競争。GoogleのGemini 4 Carbonなど同分野の発表とも並ぶ材料。",
+      "tickers": [],
+      "verifiedAt": "2026-11-06T07:20:00+09:00"
+    },
+    {
+      "id": "2026-11-04-terawulf-google-anthropic",
+      "date": "2026-11-04",
+      "title": "TeraWulf、Anthropic向け約190億ドル契約にGoogleの信用補完を取得",
+      "summary": "TeraWulfは、ケンタッキー州ホーズビルのJustifiedキャンパスでAnthropicと結んだ約190億ドル規模の長期リース契約に関連し、Google LLCと信用補完契約を締結したと米SECに提出した資料で発表しました。Alphabet傘下のGoogleがプロジェクトファイナンス向けの信用を支える内容で、併せてFluor Enterprisesと3棟分のEPC（設計・調達・建設）確定契約も締結。段階的な供用開始は2027年後半から2028年4〜6月期を見込むとしています。",
+      "category": "半導体・インフラ",
+      "sourceName": "米SEC EDGAR（TeraWulf 8-K・発表）",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/wulfhawesvillecsaandepcmpr.htm",
+      "marketNote": "Anthropic向けAIインフラの資金調達をGoogleの信用で支える材料。Alphabet（GOOGL）とデータセンター開発のTeraWulf（WULF）の動向に関連。",
+      "tickers": [
+        "GOOGL",
+        "WULF"
+      ],
+      "verifiedAt": "2026-11-07T02:14:08+09:00"
+    },
+    {
+      "id": "2026-11-04-openai-acquire-pierre",
+      "date": "2026-11-04",
+      "title": "OpenAI、開発者向けツールのPierre Computer Companyを買収へ",
+      "summary": "OpenAIは、Gitベースのコード保管サービス「Code Storage」や、Codexアプリでも使われているオープンソースのTrees・Diffsを開発するPierre Computer Companyを買収すると発表しました。Code Storageの機能はCodexへ取り込む方針で、Pierreのオープンソースプロジェクトは引き続き公開されます。買収は規制当局の承認などが条件で、完了までは両社は独立して運営されます。",
+      "category": "M&A・企業",
+      "sourceName": "OpenAI（公式発表）",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-pierre/",
+      "marketNote": "コーディングAI（Codex）の強化。開発基盤を持つMicrosoft（MSFT／GitHub）など競合サービスの動向にも注目。買収額は非公表。",
+      "tickers": [
+        "MSFT"
+      ],
+      "verifiedAt": "2026-11-05T09:10:00+09:00"
+    },
+    {
+      "id": "2026-11-02-anthropic-s1a",
+      "date": "2026-11-02",
+      "title": "Anthropic、IPO目論見書を修正 7〜9月期の売上高は約170億ドル",
+      "summary": "Claudeを開発するAnthropicは、米SECに新規株式公開（IPO）の修正届出書（S-1/A）を提出し、2026年7〜9月期の売上高を169億5,600万ドルと開示しました。1〜9月の累計売上高は332億4,200万ドル。計算資源・インフラ関連を中心とする契約上の支出約束は約8,954億ドルに上ります。ナスダック・グローバル・セレクト市場に「ANT」の銘柄コードで上場を申請しており、公開価格の仮条件はまだ空欄です。",
+      "category": "IPO・資金調達",
+      "sourceName": "米SEC EDGAR（S-1/A 提出書類）",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "marketNote": "大型AI企業のIPO。計算資源を提供するAmazon（AMZN）、Alphabet（GOOGL）、Microsoft（MSFT）の業績・投資計画にも関連。",
+      "tickers": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "verifiedAt": "2026-11-05T09:00:00+09:00"
+    },
+    {
+      "id": "2026-10-29-amazon-q3-aws",
+      "date": "2026-10-29",
+      "title": "Amazon 7〜9月期、AWSが39%増収 AI投資で設備投資は773億ドルに",
+      "summary": "Amazonの2026年7〜9月期決算で、クラウド部門AWSの売上高は前年同期比39%増の460億ドルとなり、約5年ぶりの高い伸びとなりました。AI向けを中心に設備投資（有形固定資産の購入）は772億5,900万ドルへ拡大し、直近12か月のフリーキャッシュフローは424億ドルの流出に転じました。2026年の設備投資は約2,200億ドルの見通しを据え置いています。",
+      "category": "決算・設備投資",
+      "sourceName": "Amazon（IR・決算発表）",
+      "sourceUrl": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+      "marketNote": "AIインフラ投資の規模を示す指標。AMZNのほか、半導体・データセンター関連銘柄にも影響。",
+      "tickers": [
+        "AMZN"
+      ],
+      "verifiedAt": "2026-11-05T09:00:00+09:00"
+    },
+    {
+      "id": "2026-10-29-alphabet-microsoft-capex",
+      "date": "2026-10-29",
+      "title": "Alphabet株が上場来最大の13%安 AI投資でフリーキャッシュフローがマイナスに",
+      "summary": "Alphabetは7〜9月期決算で約90億7,000万ドルのマイナスのフリーキャッシュフローを計上し、2026年の設備投資見通し1,950億〜2,050億ドルを据え置きました。翌29日の株価は約13%下落し、2004年の上場以来最大の下げ幅となり、時価総額およそ5,000億ドルが失われました。同日に決算を発表したMicrosoftは、通期の設備投資見通しを1,750億ドルから1,700億ドルへ引き下げています。",
+      "category": "決算・設備投資",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+      "relatedSources": [
+        {
+          "name": "CNBC（設備投資見通しの解説）",
+          "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html"
+        }
+      ],
+      "marketNote": "ハイパースケーラーの投資ペースに注目。GOOGL・MSFTのほか、CoreWeaveなどネオクラウドやOracleの株価も決算後に下落。",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "CRWV",
+        "ORCL"
+      ],
+      "verifiedAt": "2026-11-05T09:00:00+09:00"
+    },
+    {
+      "id": "2026-10-28-google-gemini-4-carbon",
+      "date": "2026-10-28",
+      "title": "Google、次世代AIモデル「Gemini 4 Carbon」を発表 まずはサイバー防御分野から提供",
+      "summary": "Googleは、サイバーセキュリティと長時間の作業に強い新たなフロンティアモデル「Gemini 4 Carbon」を発表しました。2週間前に公開したGemini 4 Argonを土台とし、脆弱性の発見・修正に関するベンチマークで高い成績を示したとしています。米政府の任意の事前テストに参加しつつ、まず一部のサイバー防御担当者に提供し、開発者や一般向けの提供時期は未定です。",
+      "category": "AIモデル",
+      "sourceName": "Google（公式ブログ）",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "marketNote": "生成AI競争の最前線。Alphabet（GOOGL）のAI戦略に関わる発表。導入時のAPI価格は入力100万トークンあたり2ドル。",
+      "tickers": [
+        "GOOGL"
+      ],
+      "verifiedAt": "2026-11-05T09:10:00+09:00"
+    },
+    {
+      "id": "2026-10-27-nvidia-oracle-vera-rubin",
+      "date": "2026-10-27",
+      "title": "NVIDIAとOracle、次世代「Vera Rubin」をOCIで一般提供 マルチギガワット規模へ拡大",
+      "summary": "NVIDIAとOracleは、Oracle Cloud Infrastructure（OCI）でNVIDIA Vera Rubin NVL72とVera CPUの一般提供を開始し、OCIのスーパークラスターをマルチギガワット規模へ拡大する計画を発表しました。OpenAIはアビリーンのOCIスーパークラスター（Blackwell GPU 10万基超）でGPT-6 Astraの学習・提供を行ったとしています。",
+      "category": "半導体・インフラ",
+      "sourceName": "NVIDIA Newsroom（公式発表）",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+      "marketNote": "AI半導体の次世代製品の立ち上がり。NVDA・ORCLに関連。",
+      "tickers": [
+        "NVDA",
+        "ORCL"
+      ],
+      "verifiedAt": "2026-11-05T09:10:00+09:00"
+    },
+    {
+      "id": "2026-10-26-meta-95b-equity",
+      "date": "2026-10-26",
+      "title": "Meta、AI投資のため最大950億ドルの株式による資金調達計画を発表",
+      "summary": "Metaは、AIインフラと「パーソナル・スーパーインテリジェンス」への投資を支えるため、普通株と強制転換優先株で約350億ドルを調達し、さらに約600億ドルの株式市場での随時売り出し（ATM）を計画すると発表しました。NVIDIA、AMD、Broadcomが最大50億ドル分の購入に関心を示しています。2026年の設備投資は1,350億〜1,450億ドルを見込みます。",
+      "category": "IPO・資金調達",
+      "sourceName": "Meta（IR・プレスリリース）",
+      "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+      "relatedSources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+        }
+      ],
+      "marketNote": "大規模な株式発行は既存株主の希薄化要因。META・NVDA・AMD・AVGOに関連。ATMは2027年1〜3月期以降の開始予定。",
+      "tickers": [
+        "META",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "verifiedAt": "2026-11-05T09:00:00+09:00"
+    }
+  ]
+}
