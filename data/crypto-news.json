@@ -3,6 +3,60 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-06-fincen-mexc-order",
+      "date": "2026-11-06",
+      "title": "米FinCEN、米国金融機関とMEXC間の資金移転を禁じる命令を発出",
+      "summary": "米FinCENは11月6日、米国の金融機関による暗号資産取引所MEXC Globalへの送金・同社からの送金を禁じる命令を発表しました。財務省は、同社が2021年5月〜2026年5月に制裁回避やサイバー犯罪などに関連する少なくとも160億ドルの資金移動を仲介したと指摘しています。命令は連邦官報への掲載から30日後に発効します。",
+      "category": "規制・政策",
+      "sourceName": "米財務省・FinCEN",
+      "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0685/",
+      "relatedSources": [
+        {
+          "name": "FinCEN（公式発表）",
+          "url": "https://www.fincen.gov/news/news-releases/operation-economic-outcast-severs-mexc-globals-access-us-financial-system"
+        },
+        {
+          "name": "FinCEN（命令本文）",
+          "url": "https://www.fincen.gov/system/files/2026-11/MEXC-Section-9714.pdf"
+        }
+      ],
+      "marketNote": "取引所と米国金融機関の送金経路に関する規制対応です。対象範囲と発効時期を確認する必要があります。",
+      "tickers": [],
+      "verifiedAt": "2026-11-08T04:42:43.985+09:00"
+    },
+    {
+      "id": "2026-11-06-fincen-travel-rule-withdrawal",
+      "date": "2026-11-06",
+      "title": "米FinCEN・FRB、暗号資産送金の記録・情報伝達規則の改正案を撤回へ",
+      "summary": "FinCENは11月6日、暗号資産の送金記録保存・情報伝達義務を改める規則案を、米連邦準備理事会（FRB）と共同で撤回すると発表しました。規則案には、米国外で開始または終了する送金の対象金額の基準を引き下げる内容も含まれていました。既存規則の廃止ではなく、提案されていた改正案の撤回です。",
+      "category": "規制・政策",
+      "sourceName": "米FinCEN（公式発表）",
+      "sourceUrl": "https://www.fincen.gov/news/news-releases/fincen-announces-withdrawal-proposed-rule-related-recordkeeping-and-travel-rule",
+      "relatedSources": [
+        {
+          "name": "連邦官報（11月9日掲載予定の文書）",
+          "url": "https://www.federalregister.gov/public-inspection/2026-22809/threshold-for-the-requirement-to-collect-retain-and-transmit-information-on-funds-transfers-and"
+        }
+      ],
+      "marketNote": "暗号資産の送金記録と本人情報伝達に関する米国の規制方針です。現行の義務がなくなったという意味ではありません。",
+      "tickers": [],
+      "verifiedAt": "2026-11-08T04:42:43.985+09:00"
+    },
+    {
+      "id": "2026-11-06-aave-avon-acquisition",
+      "date": "2026-11-06",
+      "title": "Aave Labs、固定金利融資を開発するAvonのチームと技術を買収",
+      "summary": "Aave Labsは11月6日、オンチェーンの固定金利融資を開発するAvonのチームと技術を買収したと発表しました。対象には固定・変動金利の融資プロトコルやオンチェーン注文板、関連資産が含まれます。AvonのメンバーはAave Labsの開発・事業開発に加わり、機能拡充に取り組むとしています。",
+      "category": "決算・企業",
+      "sourceName": "Aave Labs（公式発表）",
+      "sourceUrl": "https://aave.com/blog/avon-acquisition",
+      "marketNote": "DeFi融資で固定金利商品の拡充を目指す買収です。買収した機能の提供開始日や価格は、この発表では示されていません。",
+      "tickers": [
+        "AAVE"
+      ],
+      "verifiedAt": "2026-11-08T04:42:43.985+09:00"
+    },
+    {
       "id": "2026-11-05-kalshi-equity-perps-launch",
       "date": "2026-11-05",
       "title": "Kalshi、米国で個別株パーペチュアル先物の取引を開始 50銘柄超を上場",
@@ -155,5 +209,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-07T06:09:15+09:00"
+  "updatedAt": "2026-11-08T04:42:43.985+09:00"
 }

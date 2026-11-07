@@ -1,8 +1,60 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T06:09:12+09:00",
+  "updatedAt": "2026-11-08T04:42:43.985+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-06-openai-biobasicsbench",
+      "date": "2026-11-06",
+      "title": "OpenAIとLigo、生物実験データを読むAIの評価「BioBasicsBench」を発表",
+      "summary": "OpenAIは酵素設計企業Ligoと、生物実験の生データを解釈するAIエージェントを測る「BioBasicsBench」を発表しました。画像や測定結果の解釈、実験の誤り、結論を出すには証拠が足りない状況などを100課題で評価します。同社はGPT-6 Astraなどの評価結果と課題を公表しています。",
+      "category": "AIモデル",
+      "sourceName": "OpenAI（公式発表）",
+      "sourceUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "marketNote": "生命科学でのAI利用を測る研究発表です。医療上の効果や商用化の成果を示すものではありません。",
+      "tickers": [],
+      "verifiedAt": "2026-11-08T04:42:43.985+09:00"
+    },
+    {
+      "id": "2026-11-06-meta-muse-spaces",
+      "date": "2026-11-06",
+      "title": "Meta、Museに会話で個人用ツールを作る「spaces」を導入",
+      "summary": "MetaはAIアプリMuseに、希望を文章で伝えて予定表や買い物管理、ゲームなどの独自画面を作る「spaces」を導入しました。会話で内容や見た目を変更でき、配置や表示タイミングの設定にも対応します。同社はMuseが利用できる地域で同日から提供すると説明しています。",
+      "category": "AIサービス",
+      "sourceName": "Meta（公式発表）",
+      "sourceUrl": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "marketNote": "消費者向けAIアプリを個人用ツール作成へ広げる発表です。提供地域はMuseの利用可能地域に限られます。",
+      "tickers": [
+        "META"
+      ],
+      "verifiedAt": "2026-11-08T04:42:43.985+09:00"
+    },
+    {
+      "id": "2026-11-05-metr-anthropic-rd-assessment",
+      "date": "2026-11-05",
+      "title": "METR、AnthropicのAI能力向上ペースが従来の約2倍に加速と評価",
+      "summary": "独立評価団体METRは、Anthropicの内部データと研究者への聞き取りを基に、明確に定義された課題でのモデル能力向上が従来より速くなった可能性が高いと報告しました。内部ベンチマーク指数の伸びを従来比1.9倍と推定し、AIの研究開発利用が加速に寄与すると判断。一方、推定の不確実性が大きく、重要な根拠の多くが非公開とも説明しています。",
+      "category": "AIモデル",
+      "sourceName": "METR（評価報告）",
+      "sourceUrl": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "marketNote": "AIを使ったAI開発の加速に関する評価です。研究生産性全般が正確に2倍になったという意味ではありません。",
+      "tickers": [],
+      "verifiedAt": "2026-11-08T04:42:43.985+09:00"
+    },
+    {
+      "id": "2026-11-05-meta-bond-offering-completed",
+      "date": "2026-11-05",
+      "title": "Meta、総額150億ドルの社債発行を完了と開示",
+      "summary": "Metaは米SEC提出書類で、11月5日に総額150億ドルの米ドル建て社債発行を完了したと開示しました。満期は2031年から2056年までの5本で、利率は5.85〜7.50%。先に発表した普通株売却に関連する追加600万株の購入オプションも、引受会社が11月4日に全額行使したと説明しています。",
+      "category": "IPO・資金調達",
+      "sourceName": "米SEC EDGAR（Meta 8-K）",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+      "marketNote": "Metaの資金調達動向を示す開示です。社債の全額がAI専用とされたわけではなく、既発表の株式調達計画とも区別が必要です。",
+      "tickers": [
+        "META"
+      ],
+      "verifiedAt": "2026-11-08T04:42:43.985+09:00"
+    },
     {
       "id": "2026-11-05-openai-community-compact",
       "date": "2026-11-05",
