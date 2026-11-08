@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T04:42:43.985+09:00",
+  "updatedAt": "2026-11-08T09:19:06+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
@@ -28,6 +28,32 @@
         "META"
       ],
       "verifiedAt": "2026-11-08T04:42:43.985+09:00"
+    },
+    {
+      "id": "2026-11-05-google-gemini-omni-1-2-flash",
+      "date": "2026-11-05",
+      "title": "Google、「Gemini Omni 1.2 Flash」を一般提供 15秒動画に対応",
+      "summary": "Googleは11月5日、動画生成モデル「Gemini Omni 1.2 Flash」をGemini APIとGemini for businessで一般提供すると発表しました。最大15秒の動画生成や、会話を重ねて同じ動画を編集する機能に対応します。同社によると、価格はOmni 1.1から30%下がり、参照画像への追従や人物・場面の一貫性も改善しています。",
+      "category": "AIモデル",
+      "sourceName": "Google（公式発表）",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "marketNote": "動画生成AIの機能と価格の競争を示す発表です。品質向上はGoogleによる説明です。",
+      "tickers": [
+        "GOOGL"
+      ],
+      "verifiedAt": "2026-11-08T09:19:06+09:00"
+    },
+    {
+      "id": "2026-11-05-anthropic-claude-personal-finance",
+      "date": "2026-11-05",
+      "title": "Anthropic、口座情報を読み取る「Personal Finance」を米国でベータ提供へ",
+      "summary": "Anthropicは11月5日、銀行・カード口座の残高や取引履歴をClaudeで確認する「Personal Finance」を発表しました。米国のPro・Max・Ultraプランに、同週からベータ版を段階提供すると説明しています。利用者がPlaid経由で口座を接続すると、支出の集計などを質問できます。アクセスは読み取り専用で、送金や資金管理、投資の操作はできません。",
+      "category": "AIサービス",
+      "sourceName": "Anthropic（Claude公式発表）",
+      "sourceUrl": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+      "marketNote": "資産情報を扱う消費者向けAI機能の拡大です。提供対象は発表時点で米国の指定有料プランです。",
+      "tickers": [],
+      "verifiedAt": "2026-11-08T09:19:06+09:00"
     },
     {
       "id": "2026-11-05-metr-anthropic-rd-assessment",

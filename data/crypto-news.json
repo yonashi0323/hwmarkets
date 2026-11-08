@@ -3,6 +3,20 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-06-ethereum-glamsterdam-delay",
+      "date": "2026-11-06",
+      "title": "Ethereum、Glamsterdamの移行工程を延期 アプリへの影響を追加検証",
+      "summary": "Ethereum Foundationは11月6日、次期アップグレードGlamsterdamの移行工程を延期し、問題が解消するまでテストネットHoodiを更新しないと説明しました。ガス料金や状態保存の課金方式を変えるEIP-8037・8038により、一部アプリが依存する前提条件が崩れ、脆弱性につながる恐れがテストで見つかったためです。監査と開発者による追加点検を進めます。",
+      "category": "プロトコル・技術",
+      "sourceName": "Ethereum Foundation（公式ブログ）",
+      "sourceUrl": "https://blog.ethereum.org/2026/11/06/glamsterdam-8037-8038",
+      "marketNote": "Ethereumの更新日程とアプリの互換性に関する発表です。本番チェーンの停止や攻撃被害を報告したものではなく、新しい実施日は示されていません。",
+      "tickers": [
+        "ETH"
+      ],
+      "verifiedAt": "2026-11-08T09:19:06+09:00"
+    },
+    {
       "id": "2026-11-06-fincen-mexc-order",
       "date": "2026-11-06",
       "title": "米FinCEN、米国金融機関とMEXC間の資金移転を禁じる命令を発出",
@@ -209,5 +223,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-08T04:42:43.985+09:00"
+  "updatedAt": "2026-11-08T09:19:06+09:00"
 }
