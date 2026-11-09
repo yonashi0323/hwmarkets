@@ -1,8 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T09:19:06+09:00",
+  "updatedAt": "2026-11-10T06:46:47+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-09-meta-muse-ember",
+      "date": "2026-11-09",
+      "title": "Meta、最小・低コストのAIモデル「Muse Ember」を提供開始",
+      "summary": "Metaは11月9日、Museシリーズで最も小さく効率的なモデル「Muse Ember」を発表し、Meta Model APIとMuse Codeで提供を始めました。ツール呼び出しやコーディングの小作業、文書の抽出などエージェントの反復作業向けで、料金は入力100万トークン0.10ドル、出力0.50ドル。文脈長は100万トークンです。同社はClaude Haiku 5.5やGPT-6 Lunaより費用対性能が高いと主張しています。",
+      "category": "AIモデル",
+      "sourceName": "Meta（公式ブログ）",
+      "sourceUrl": "https://research.meta.ai/blog/muse-ember",
+      "marketNote": "性能比較はMetaの主張で、一部はArtificial AnalysisとMeta社内の評価に基づきます。AIの推論コストを巡る価格競争に関わる発表です。",
+      "tickers": [
+        "META"
+      ],
+      "verifiedAt": "2026-11-10T06:10:00+09:00"
+    },
+    {
+      "id": "2026-11-09-adobe-disney-ai-alliance",
+      "date": "2026-11-09",
+      "title": "Adobe、Disneyと複数年のAI提携 Disney専用の生成AIモデルを共同開発",
+      "summary": "AdobeとWalt Disneyは11月9日、複数年の戦略提携を発表しました。AdobeはDisneyの「公式AIイノベーションパートナー」となり、Firefly Foundryを使ってDisneyの作品資産で学習した同社専用の生成AIモデルを共同で開発します。テーマパークの構想づくりから始め、映画部門のStudioLABやESPNにも広げる計画です。",
+      "category": "提携・契約",
+      "sourceName": "Adobe（公式発表）",
+      "sourceUrl": "https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance",
+      "marketNote": "契約金額は公表されていません。大手メディアが自社IPで学習した専用モデルを導入する事例です。",
+      "tickers": [
+        "ADBE",
+        "DIS"
+      ],
+      "verifiedAt": "2026-11-10T06:10:00+09:00"
+    },
+    {
+      "id": "2026-11-08-nvidia-board-investigation",
+      "date": "2026-11-08",
+      "title": "NVIDIA取締役会、フアンCEOを巡る報道を受け独立調査を開始",
+      "summary": "NVIDIA取締役会は11月8日、創業者でCEOのジェンスン・フアン氏が外国の情報工作の標的になったとの報道を受け、独立調査を始めると発表しました。独立取締役による委員会が外部の独立弁護士の支援を受けて監督します。取締役会は国家安全保障や同社の機密が損なわれたと考える理由はないとし、フアン氏は調査に協力すると説明しています。",
+      "category": "M&A・企業",
+      "sourceName": "NVIDIA（取締役会声明）",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "relatedSources": [
+        {
+          "name": "CNBC（声明と社員宛てメール全文）",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html"
+        }
+      ],
+      "marketNote": "調査の結論や期限は示されていません。取締役会は同氏と経営陣への信頼を表明し、必要に応じて続報を出すとしています。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-10T06:10:00+09:00"
+    },
     {
       "id": "2026-11-06-openai-biobasicsbench",
       "date": "2026-11-06",
