@@ -84,17 +84,41 @@ function immutablePreferences(value){
   return Object.freeze(prefs);
 }
 // Retain a session-local fallback when the browser blocks or fills localStorage.
-const preferenceCache=new Map();
-function readStoredPreferences(key){
+const preferenceCache=new Map(),syncAckCache=new Map();
+function readStoredRecord(key){
   try{
     const stored=localStorage.getItem(key);
-    if(stored!==null){const prefs=normalizePreferences(JSON.parse(stored));preferenceCache.set(key,prefs);return prefs;}
+    const value=stored===null?{}:JSON.parse(stored);
+    const record={preferences:normalizePreferences(value),revision:typeof value?._syncRevision==='string'?value._syncRevision:null};
+    preferenceCache.set(key,record);return record;
   }catch{}
-  return normalizePreferences(preferenceCache.get(key));
+  return preferenceCache.get(key)||{preferences:normalizePreferences(null),revision:null};
+}
+const readStoredPreferences=key=>readStoredRecord(key).preferences;
+function writeStoredRecord(key,record){
+  preferenceCache.set(key,record);
+  try{localStorage.setItem(key,JSON.stringify({...record.preferences,...(record.revision?{_syncRevision:record.revision}:{})}));}catch{}
+}
+const samePreferences=(a,b)=>JSON.stringify(normalizePreferences(a))===JSON.stringify(normalizePreferences(b));
+const syncKeyFor=owner=>'hwmarkets-account-sync-v1:'+encodeURIComponent(owner);
+function readSyncAck(owner){
+  const key=syncKeyFor(owner);
+  try{const revision=localStorage.getItem(key);syncAckCache.set(key,revision);return revision;}catch{return syncAckCache.get(key)||null;}
+}
+const newRevision=()=>globalThis.crypto?.randomUUID?.()||Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
+function mergePreferences(base,local,latest){
+  const result={...latest};
+  for(const [key,max] of [['board',MARKETS.length],['favorites',MARKETS.length],['futuresFavorites',100],['cryptoFavorites',50]]){
+    const removed=new Set(base[key].filter(id=>!local[key].includes(id)));
+    result[key]=[...latest[key].filter(id=>!removed.has(id)),...local[key].filter(id=>!base[key].includes(id)&&!latest[key].includes(id))].slice(0,max);
+  }
+  for(const key of ['compact','focusId','watchView'])if(local[key]!==base[key])result[key]=local[key];
+  return normalizePreferences(result);
 }
 let workspaceOwner=null;
 const storageKeyFor=owner=>owner===null?STORAGE_KEY:'hwmarkets-account-v1:'+encodeURIComponent(owner);
 const saved=readStoredPreferences(STORAGE_KEY);
+let knownPreferences=immutablePreferences(saved);
 let board=saved.board,favorites=saved.favorites,compact=saved.compact,futuresFavorites=saved.futuresFavorites,cryptoFavorites=saved.cryptoFavorites;
 let watchClass='futures';
 let watchView=saved.watchView;
@@ -102,6 +126,29 @@ let page='all', filter='all', query='', focusId=saved.focusId, range='1M';
 let toastTimeout, searchTimeout;
 let widgetObserver,chartNeedsRefresh=false;
 function getPreferences(){return immutablePreferences({board,favorites,futuresFavorites,cryptoFavorites,watchView,compact,focusId});}
+function adoptPreferences(value){
+  const prefs=normalizePreferences(value);
+  board=prefs.board;favorites=prefs.favorites;futuresFavorites=prefs.futuresFavorites;cryptoFavorites=prefs.cryptoFavorites;watchView=prefs.watchView;compact=prefs.compact;focusId=prefs.focusId;
+  knownPreferences=immutablePreferences(prefs);
+}
+function getSyncSnapshot(){
+  const record=readStoredRecord(storageKeyFor(workspaceOwner));
+  const changed=!samePreferences(getPreferences(),record.preferences);
+  adoptPreferences(record.preferences);if(changed)repaintPreferences();
+  return {preferences:getPreferences(),revision:record.revision,pending:workspaceOwner!==null&&!!record.revision&&readSyncAck(workspaceOwner)!==record.revision};
+}
+function hasPendingSync(){
+  if(workspaceOwner===null)return false;
+  const record=readStoredRecord(storageKeyFor(workspaceOwner));
+  return !!record.revision&&readSyncAck(workspaceOwner)!==record.revision;
+}
+function acknowledgeSync(snapshot){
+  if(workspaceOwner===null||!snapshot?.revision)return !hasPendingSync();
+  // Acknowledgements never rewrite preferences: a late response cannot erase a newer edit.
+  const key=syncKeyFor(workspaceOwner);syncAckCache.set(key,snapshot.revision);
+  try{localStorage.setItem(key,snapshot.revision);}catch{}
+  return !hasPendingSync();
+}
 function updateWatchView(){
   document.querySelectorAll('[data-watch-view]').forEach(b=>{const active=b.dataset.watchView===watchView;b.classList.toggle('active',active);b.setAttribute('aria-pressed',active);});
   if($('watchViewBar'))$('watchViewBar').hidden=watchClass==='standard';
@@ -120,13 +167,17 @@ function toggleWatch(kind,id){
   const next=active?[...list,id]:list.filter(item=>item!==id);
   if(isFuture)futuresFavorites=next;else cryptoFavorites=next;
   persist();updateWatchCounts();window.dispatchEvent(new Event('hw:watchlists-changed'));
+  if(active&&!(isFuture?futuresFavorites:cryptoFavorites).includes(id)){toast('登録できる上限に達しています。不要な銘柄の星を外してください。');return false;}
   toast(active?'ウォッチリストに追加しました':'ウォッチリストから削除しました');
   return true;
 }
 function persist({notify=true}={}){
-  const preferences=getPreferences(),key=storageKeyFor(workspaceOwner);
-  preferenceCache.set(key,preferences);
-  try{localStorage.setItem(key,JSON.stringify(preferences));}catch{}
+  const local=getPreferences(),key=storageKeyFor(workspaceOwner),latest=readStoredRecord(key);
+  const preferences=immutablePreferences(mergePreferences(knownPreferences,local,latest.preferences));
+  const changed=!samePreferences(preferences,latest.preferences);
+  const revision=workspaceOwner!==null&&changed?newRevision():latest.revision;
+  writeStoredRecord(key,{preferences,revision});adoptPreferences(preferences);
+  if(!samePreferences(local,preferences))repaintPreferences();
   if(notify)window.dispatchEvent(new CustomEvent('hw:preferences-changed',{detail:Object.freeze({owner:workspaceOwner,preferences})}));
   return preferences;
 }
@@ -141,11 +192,13 @@ function repaintPreferences(){
   if(page!=='portfolio'&&page!=='dex'&&(page!=='watchlist'||watchClass==='standard'))renderMainChart();
   window.dispatchEvent(new Event('hw:watchlists-changed'));
 }
-function applyPreferences(value,{notify=false}={}){
-  const prefs=normalizePreferences(value);
-  board=prefs.board;favorites=prefs.favorites;futuresFavorites=prefs.futuresFavorites;cryptoFavorites=prefs.cryptoFavorites;watchView=prefs.watchView;compact=prefs.compact;focusId=prefs.focusId;
-  const snapshot=persist({notify});
+function applyPreferences(value,{notify=false,fromCloud=false}={}){
+  if(fromCloud&&hasPendingSync())return getSyncSnapshot().preferences;
+  const snapshot=immutablePreferences(value);
+  writeStoredRecord(storageKeyFor(workspaceOwner),{preferences:snapshot,revision:workspaceOwner!==null&&!fromCloud?newRevision():null});
+  adoptPreferences(snapshot);
   repaintPreferences();
+  if(notify)window.dispatchEvent(new CustomEvent('hw:preferences-changed',{detail:Object.freeze({owner:workspaceOwner,preferences:snapshot})}));
   return snapshot;
 }
 function setWorkspaceOwner(userId){
@@ -155,12 +208,19 @@ function setWorkspaceOwner(userId){
   if(userId===workspaceOwner)return getPreferences();
   persist({notify:false});
   workspaceOwner=userId;
-  const result=applyPreferences(readStoredPreferences(key));
+  adoptPreferences(readStoredPreferences(key));repaintPreferences();
   window.dispatchEvent(new Event('hw:owner-changed'));
-  return result;
+  return getPreferences();
 }
+window.addEventListener('storage',event=>{
+  if(event.storageArea&&event.storageArea!==localStorage)return;
+  if(event.key!==null&&event.key!==storageKeyFor(workspaceOwner)&&(workspaceOwner===null||event.key!==syncKeyFor(workspaceOwner)))return;
+  const snapshot=getSyncSnapshot();
+  window.dispatchEvent(new CustomEvent('hw:preferences-external',{detail:{owner:workspaceOwner,...snapshot}}));
+});
 window.HWWorkspace=Object.freeze({
   getPreferences,
+  getSyncSnapshot,hasPendingSync,acknowledgeSync,
   getOwner:()=>workspaceOwner,
   getGuestPreferences:()=>workspaceOwner===null?getPreferences():immutablePreferences(readStoredPreferences(STORAGE_KEY)),
   applyPreferences,

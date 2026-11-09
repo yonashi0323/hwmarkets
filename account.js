@@ -118,9 +118,10 @@
     if(!data.cloudEnabled){syncReady=false;syncState='device';syncMessage='設定はこの端末に保存されます。';render();return;}
     if(data.preferencesError){syncReady=false;updateSync('error','アカウントの設定を確認できませんでした。このブラウザの設定は保持されています。');return;}
     syncReady=true;
+    if(workspace?.hasPendingSync?.())needsExplicitSave=true;
     if(needsExplicitSave){updateSync('error','このブラウザに未同期の変更があります。保存すると、アカウントの設定が置き換わります。');return;}
     if(preserveLocal&&!changed){updateSync(pendingPreferences||saveRunning?'saving':'saved',pendingPreferences||saveRunning?'アカウントに保存しています…':'このブラウザの最新の設定を保持しています。');return;}
-    if(data.preferences&&workspace)workspace.applyPreferences(data.preferences,{notify:false});
+    if(data.preferences&&workspace)workspace.applyPreferences(data.preferences,{notify:false,fromCloud:true});
     updateSync('saved',data.preferences?'アカウントの設定を読み込みました。':'次に変更したボードやお気に入りが保存されます。');
   }
   async function loadSession(force=false){
@@ -160,11 +161,13 @@
   }
   async function flushSave(expectedGeneration,owner){
     if(saveRunning||!pendingPreferences||generation!==expectedGeneration||session.user?.id!==owner||!syncReady)return;
-    const preferences=pendingPreferences;pendingPreferences=null;saveRunning=true;
+    const snapshot=workspace?.getSyncSnapshot?.(),preferences=snapshot?.preferences||pendingPreferences;
+    pendingPreferences=null;saveRunning=true;
     try{
       const result=await api({action:'save',owner,preferences});
       if(generation!==expectedGeneration||session.user?.id!==owner)return;
       if(result.saved!==true)throw new Error('Preferences not saved');
+      if(snapshot&&workspace.acknowledgeSync(snapshot)===false)pendingPreferences=workspace.getPreferences();
       if(!pendingPreferences){notice='';needsExplicitSave=false;updateSync('saved','アカウントに保存しました。');}
     }catch(error){
       if(generation!==expectedGeneration||session.user?.id!==owner)return;
@@ -184,6 +187,11 @@
     finally{mutationBusy=false;render();}
   }
   window.addEventListener('hw:preferences-changed',event=>{if(session.user&&event.detail?.owner===session.user.id&&event.detail.preferences)queueSave(event.detail.preferences);});
+  window.addEventListener('hw:preferences-external',event=>{
+    if(!session.user||event.detail?.owner!==session.user.id||mutationBusy)return;
+    if(event.detail.pending)queueSave(event.detail.preferences);
+    else if(!saveRunning){clearTimeout(saveTimer);pendingPreferences=null;needsExplicitSave=false;updateSync(session.cloudEnabled?'saved':'device','別のタブの設定を読み込みました。');}
+  });
   function selectMode(mode){if(mutationBusy)return;authMode=mode;formState='email';notice='';noticeError=false;render();}
   function openAccount(mode){if(mode)selectMode(mode);if(!dialog.open)dialog.showModal();if(session.configured===null)loadSession();}
   accountButton.addEventListener('click',()=>openAccount('login'));
