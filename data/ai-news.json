@@ -1,8 +1,100 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T06:46:47+09:00",
+  "updatedAt": "2026-11-11T05:47:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-10-tsmc-anthropic-openai-investment",
+      "date": "2026-11-10",
+      "title": "TSMC、AnthropicとOpenAIに最大計10億ドル出資へ 取締役会が承認",
+      "summary": "TSMCは11月10日の取締役会で、AnthropicとOpenAIへの出資を承認したと発表しました。AnthropicにはIPO価格で最大5億ドル分の普通株を、OpenAIには最大5億ドル分の優先株を取得します。同じ取締役会では、先端・先端パッケージング能力の増強や2027年の研究開発投資などに充てる約409億2670万ドルの資本予算、半導体関連エコシステムへの戦略投資会社の設立（最大5億ドル）、第3四半期の1株9.0台湾ドルの現金配当も承認しました。",
+      "category": "IPO・資金調達",
+      "sourceName": "TSMC（取締役会決議・公式発表）",
+      "sourceUrl": "https://pr.tsmc.com/english/news/3352",
+      "marketNote": "ロイターによると、AI開発大手への出資は、AI投資への懸念が強まるなかでもTSMCが長期需要に自信を示す動きです。AnthropicのIPOでは、別途Google、NVIDIA、AMDなどが参加する260億ドルの私募も予定されています。",
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "GOOGL"
+      ],
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai-5015908"
+        }
+      ],
+      "verifiedAt": "2026-11-11T05:47:00+09:00"
+    },
+    {
+      "id": "2026-11-10-openai-chatgpt-business-agents",
+      "date": "2026-11-10",
+      "title": "OpenAI、ChatGPTに企業向け「Businesses」を導入 企業のAIエージェントと広告連携も",
+      "summary": "OpenAIは11月10日、ChatGPT上で企業が自社のプロフィールを登録・管理できる「Businesses in ChatGPT」のベータ版を始めました。「Business Hub」で認証を受けた企業は情報や価格・在庫を含む商品フィードを更新でき、言及数やサイトへのクリック数などの集計データも確認できます。米国の対象となるEC・オンラインサービス企業は、自社の商品について利用者と対話する「Business Agent」を公開でき、ChatGPT広告の遷移先にも使えます。",
+      "category": "AIサービス",
+      "sourceName": "OpenAI（公式発表）",
+      "sourceUrl": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "marketNote": "週12億人が使うChatGPTを、商品探しや広告の場として収益化する動きです。Shopifyの加盟店はShopifyの管理画面からも登録できます。OpenAIは、利用者の会話内容を企業に共有しないとしています。",
+      "tickers": [
+        "MSFT",
+        "SHOP",
+        "GOOGL"
+      ],
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-for-us-ecommerce-firms-5016475"
+        }
+      ],
+      "verifiedAt": "2026-11-11T05:47:00+09:00"
+    },
+    {
+      "id": "2026-11-10-anthropic-ipo-roadshow",
+      "date": "2026-11-10",
+      "title": "Anthropic、IPOのロードショー開始 仮条件は1株70〜78ドル、ナスダックに「ANT」で上場申請",
+      "summary": "Anthropicは11月10日、新規株式公開（IPO）のロードショーを開始したと発表しました。クラスA普通株8億2500万株を売り出し（うち同社が8億135万株余り、既存株主が2364万株余り）、想定価格は1株70〜78ドルです。引受会社には最大1億2375万株の追加購入権を付与する見込みで、ナスダック・グローバル・セレクト市場に銘柄コード「ANT」で上場を申請しています。同日付でSECに修正版S-1も提出しました。",
+      "category": "資金調達・IPO",
+      "sourceName": "Anthropic（公式発表）",
+      "sourceUrl": "https://www.anthropic.com/news/roadshow-launch",
+      "marketNote": "CNBCによると、価格決定は11月18日、取引開始は19日の予定と関係者が話しています。登録届出書はまだ効力を生じておらず、条件は変わる可能性があります。",
+      "tickers": [
+        "GOOGL",
+        "NVDA",
+        "AMZN"
+      ],
+      "verifiedAt": "2026-11-11T02:07:00+09:00"
+    },
+    {
+      "id": "2026-11-09-google-tpu-8tx-8i-max",
+      "date": "2026-11-09",
+      "title": "Google、第8世代TPUに「8tx」「8i Max」を追加 機密推論と大規模文脈向け",
+      "summary": "Googleは11月9日、第8世代TPUの新システム「TPU 8tx」と「TPU 8i Max」を発表しました。8txはTPU 8tと同じシリコンに第5世代AMD EPYCのホストを組み合わせ、処理中のデータやモデルの重みをハードウェアで保護する機密推論向けで、TPU 8t比で最大2倍の低遅延とします。8i MaxはTPU 8iの2チップを1パッケージに収め、演算・SRAM・HBM帯域をそれぞれ2倍にした大規模文脈向けです。",
+      "category": "AIインフラ",
+      "sourceName": "Google（公式ブログ）",
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "marketNote": "ロイターによると発表当日にAlphabet株は取引序盤で3%超上昇しました。自社AIチップでNVIDIAに対抗する動きで、AMDのCPUも採用されています。",
+      "tickers": [
+        "GOOGL",
+        "AMD",
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-10T07:02:00+09:00"
+    },
+    {
+      "id": "2026-11-09-anthropic-claude-fable-mythos-5-2",
+      "date": "2026-11-09",
+      "title": "Anthropic、最上位モデル「Claude Fable 5.2」「Mythos 5.2」を発表 価格を引き下げ",
+      "summary": "Anthropicは11月9日、高度な技術作業向けの最上位モデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表しました。両者は同じ基盤モデルで、サイバー・生物分野の安全対策を備えたFableは一般提供、Mythosは検証プログラムで承認された組織に限って提供します。前世代の5.1比で出力が最大30%速く、料金は入力100万トークンあたり8ドル、出力40ドルに下げました。",
+      "category": "AIモデル",
+      "sourceName": "Anthropic（公式発表）",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "marketNote": "IPOを控えたAnthropicの製品発表で、OpenAIやGoogleとの最上位モデル競争が続いています。",
+      "tickers": [
+        "GOOGL",
+        "AMZN",
+        "MSFT"
+      ],
+      "verifiedAt": "2026-11-11T02:07:00+09:00"
+    },
     {
       "id": "2026-11-09-meta-muse-ember",
       "date": "2026-11-09",

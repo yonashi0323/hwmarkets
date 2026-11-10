@@ -3,6 +3,21 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-09-nyse-avalanche-tokenized-settlement",
+      "date": "2026-11-09",
+      "title": "NYSE系のトークン化証券プラットフォーム、清算・決済の台帳にAvalancheを採用",
+      "summary": "Ava Labsは11月9日、ニューヨーク証券取引所（NYSE）の関連会社が開発中のトークン化証券向けデジタルATS（代替取引システム）で、清算会社の中核台帳技術にAvalancheが使われると発表しました。規制当局の承認を前提に、24時間365日の取引・清算・決済を目指します。NYSEのデジタル発行責任者は、取引自体は複数のブロックチェーン上の株式に対応すると説明しています。",
+      "category": "市場・取引所",
+      "sourceName": "Ava Labs（PR Newswire）",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html",
+      "marketNote": "CoinDeskによると、発表後にAVAXは上昇しました。NYSE（ICE傘下）が株式の決済をブロックチェーンへ移す動きの一環です。",
+      "tickers": [
+        "AVAX",
+        "ICE"
+      ],
+      "verifiedAt": "2026-11-11T02:07:00+09:00"
+    },
+    {
       "id": "2026-11-09-coinbase-national-trust-charter",
       "date": "2026-11-09",
       "title": "Coinbase、米OCCから全米信託銀行の設立認可を最終取得",
@@ -237,5 +252,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-10T06:46:47+09:00"
+  "updatedAt": "2026-11-11T02:07:00+09:00"
 }
