@@ -11,8 +11,8 @@
   (()=>{let token='',mode='login';try{const params=new URL(location.href).searchParams;token=params.get('t')||'';mode=params.get('mode')==='signup'?'signup':'login';history.replaceState(null,'',location.pathname);}catch{}window.HWAuthCallback={token,mode};})();
   </script>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="/public/brand/icon-32.png" type="image/png" sizes="32x32">
-  <link rel="apple-touch-icon" href="/public/brand/icon-180.png">
+  <link rel="icon" href="/brand/icon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/brand/icon-180.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="account.css">
@@ -20,7 +20,7 @@
 </head>
 <body class="hw-auth-page">
   <div class="hw-auth-shell">
-    <a class="hw-auth-brand" href="/" aria-label="HELLO WORLD Markets ホーム"><img src="/public/brand/mark.svg" alt="" width="36" height="36"><span><strong>HELLO WORLD</strong><small>Markets</small></span></a>
+    <a class="hw-auth-brand" href="/" aria-label="HELLO WORLD Markets ホーム"><img src="/brand/mark.svg" alt="" width="36" height="36"><span><strong>HELLO WORLD</strong><small>Markets</small></span></a>
     <main class="hw-auth-card" id="authContent" aria-live="polite"><div class="eyebrow">WELCOME TO YOUR WORKSPACE</div><h1>ログインを確認</h1><p class="hw-account-lead">認証リンクを確認しています…</p></main>
     <noscript><p class="hw-account-message is-error">ログインにはJavaScriptを有効にしてください。</p><a href="/">ホームに戻る</a></noscript>
   </div>
