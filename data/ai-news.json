@@ -1,8 +1,63 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T05:47:00+09:00",
+  "updatedAt": "2026-11-12T01:54:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-10-coreweave-q3",
+      "date": "2026-11-10",
+      "title": "CoreWeave 7〜9月期、売上高168%増の36.6億ドル 通期見通しを上方修正",
+      "summary": "AIクラウドのCoreWeaveは11月10日、2026年7〜9月期の売上高が前年同期比168%増の36億6,100万ドルだったと発表しました。純損失は7億900万ドル（前年同期は1億1,000万ドル）、調整後営業利益は3億7,900万ドルです。9月末の受注残高は約1,325億ドルに増えました。2026年通期の売上高見通しを130億〜133億ドル、調整後営業利益を12億7,500万〜13億7,500万ドルへ引き上げ、設備投資は370億〜390億ドルを見込みます。",
+      "category": "決算・設備投資",
+      "sourceName": "CoreWeave（IR・決算発表）",
+      "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+      "marketNote": "CNBCによると、売上高はLSEGの市場予想（35億5,000万ドル）を上回り、株価は時間外取引で上昇しました。同社株は過去1か月で約40%下落しており、金利上昇による資金調達環境が引き続き焦点です。",
+      "tickers": [
+        "CRWV",
+        "NVDA"
+      ],
+      "relatedSources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+        }
+      ],
+      "verifiedAt": "2026-11-12T01:54:00+09:00"
+    },
+    {
+      "id": "2026-11-10-google-gemini-4-carbon-ga",
+      "date": "2026-11-10",
+      "title": "Google、「Gemini 4 Carbon」を一般提供 有料APIとAI Ultra会員向けに",
+      "summary": "Googleは11月10日、最上位のフロンティアモデル「Gemini 4 Carbon」を開発者・企業・一般利用者に提供開始したと発表しました。Google AI StudioのAPIとGemini for businessで全ての有料開発者・企業が利用でき、Google AI Ultra会員にはGeminiアプリや検索のAIモード、Google Antigravityで順次提供します。導入価格はGemini 4 Argonと同じ入力100万トークンあたり2ドル、出力10ドルで、11月30日の導入期間終了後は4ドル・20ドルになります。複数のエージェントを協調させる「/swarm」もAntigravityでプレビュー公開しました。",
+      "category": "AIモデル",
+      "sourceName": "Google（公式ブログ）",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "marketNote": "10月28日にサイバー防御担当者向けに先行提供したモデルの一般公開。Alphabet（GOOGL）の生成AI競争力と収益化に関わる発表です。",
+      "tickers": [
+        "GOOGL"
+      ],
+      "verifiedAt": "2026-11-12T01:54:00+09:00"
+    },
+    {
+      "id": "2026-11-10-openai-q3-revenue-report",
+      "date": "2026-11-10",
+      "title": "OpenAI、7〜9月期の売上高が約100億ドルに 営業赤字は109億ドル WSJ報道",
+      "summary": "ロイターが伝えたウォール・ストリート・ジャーナル（WSJ）の報道によると、OpenAIの2026年7〜9月期の売上高は前四半期比約50%増の約100億ドルでした。投資家向け資料では調整後営業利益率がマイナス150%からマイナス109%に改善した一方、営業赤字は101億ドルから109億ドルに拡大しました。ブルームバーグも、関係者の話として四半期売上高が初めて100億ドルに達し、前年同期の約3倍になったと報じています。数字は11月10日の投資家向け説明で示されたもので、OpenAIは公式に発表していません。",
+      "category": "決算・設備投資",
+      "sourceName": "Reuters（Investing.com掲載、WSJ報道を引用）",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion-wsj-reports-5017353",
+      "marketNote": "非上場企業の報道ベースの数字です。IPOを控えるAnthropicとの比較材料として、AI企業の収益性に注目が集まっています。",
+      "tickers": [
+        "MSFT"
+      ],
+      "relatedSources": [
+        {
+          "name": "Bloomberg（Bloomberg Law掲載）",
+          "url": "https://news.bloomberglaw.com/private-equity/openai-third-quarter-revenue-soars-nearly-50-to-10-billion"
+        }
+      ],
+      "verifiedAt": "2026-11-12T01:54:00+09:00"
+    },
     {
       "id": "2026-11-10-tsmc-anthropic-openai-investment",
       "date": "2026-11-10",

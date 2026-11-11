@@ -3,6 +3,56 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-11-okxice-tokenized-securities-venue-launch",
+      "date": "2026-11-11",
+      "title": "OKXとICEの合弁OKXICE、米国株トークンの24時間取引を11月23日に開始へ",
+      "summary": "暗号資産取引所OKXとニューヨーク証券取引所の親会社ICEの合弁会社OKXICEは11月11日、トークン化した米国証券を24時間取引できるプラットフォームを11月23日に開始すると発表しました。当初はCoinbase、Circle、Robinhoodなどのトークン化株式を含む70超の銘柄と、Direxionの上場投資信託（ETF）59本を扱う予定です。SECが9月に導入したトークン化株式の取引施設向け適用除外の枠組みを利用します。",
+      "category": "市場・取引所",
+      "sourceName": "Reuters（Investing.com掲載）",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/okxice-to-launch-247-trading-in-tokenized-us-securities-5018819",
+      "marketNote": "ロイターによると、米大手企業の一部は自社株のトークン化版の取り扱いに反対しています。The Blockによると、11月5日時点の公示ではTeslaやMetaなど67社が自社株の取り扱いを拒否（オプトアウト）していました。",
+      "tickers": [
+        "ICE",
+        "COIN",
+        "CRCL",
+        "HOOD"
+      ],
+      "relatedSources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/regulation/2026-11-11-okxice-sets-nov-23-launch-for-tokenized-securities-venue-under-sec-innovation-exemption-437342"
+        }
+      ],
+      "verifiedAt": "2026-11-12T05:55:00+09:00"
+    },
+    {
+      "id": "2026-11-11-deutsche-bank-digital-asset-custody",
+      "date": "2026-11-11",
+      "title": "ドイツ銀行、デジタル資産カストディを有料顧客向けに開始 BTC・ETH・ステーブルコインに対応",
+      "summary": "ドイツ銀行は11月11日、デジタル資産のカストディ（保管）サービスを有料顧客向けに開始したと明らかにしました。9月に規制手続きを条件として発表していたもので、欧州の機関投資家・事業会社が対象です。当初はビットコイン、イーサのほか、USDC、EURC、EURAUなどのステーブルコイン・電子マネートークンに対応し、同行が顧客に代わってウォレットと秘密鍵を管理します。個人向けではありません。あわせて、資産運用子会社Deutsche Asset Management（旧DWS）とデジタル資産分野での協業を検討する覚書を結びました。",
+      "category": "決算・企業",
+      "sourceName": "Reuters（CNA掲載）",
+      "sourceUrl": "https://www.channelnewsasia.com/business/deutsche-bank-launches-digital-asset-custody-service-6542456",
+      "marketNote": "欧州最大級の銀行による暗号資産保管サービスの本格稼働。The Blockによると、覚書ではトークン化MMFや暗号資産ETC、ステーブルコインも検討対象です。",
+      "tickers": [
+        "BTC",
+        "ETH",
+        "USDC",
+        "DB"
+      ],
+      "relatedSources": [
+        {
+          "name": "Deutsche Bank（9月16日の公式発表）",
+          "url": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-Clients"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-11-deutsche-bank-goes-live-with-digital-asset-custody-service-signs-asset-management-deal-437851"
+        }
+      ],
+      "verifiedAt": "2026-11-12T01:54:00+09:00"
+    },
+    {
       "id": "2026-11-09-nyse-avalanche-tokenized-settlement",
       "date": "2026-11-09",
       "title": "NYSE系のトークン化証券プラットフォーム、清算・決済の台帳にAvalancheを採用",
@@ -252,5 +302,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-11T02:07:00+09:00"
+  "updatedAt": "2026-11-12T05:55:00+09:00"
 }
