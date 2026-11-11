@@ -1,8 +1,33 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T01:54:00+09:00",
+  "updatedAt": "2026-11-12T07:19:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-10-anthropic-claude-sheets-whiteboards-data",
+      "date": "2026-11-10",
+      "title": "Anthropic、表計算「Claude Sheets」とホワイトボード機能を提供開始 Officeと競合",
+      "summary": "Anthropicは11月10日、チームでClaudeと共同作業できる「Claude Whiteboards」と表計算の「Claude Sheets」をベータ版で提供開始し、10月にベータ公開したデータ分析ツール「Claude Dashboards」を「Claude Data」に改称して一般提供すると発表しました。いずれも全ての有料プランで利用できます。Sheetsはタブ・数式・書式・ドロップダウンを含む表をClaudeが作成・編集し、.xlsxやCSVでの書き出しにも対応します。Adobe、Atlassian、Box、Notionなどの外部ツールをチャット画面の横で開いて操作できる機能も追加しました。",
+      "category": "AIサービス",
+      "sourceName": "Anthropic（Claude公式）",
+      "sourceUrl": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "marketNote": "Bloombergは、MicrosoftのExcelやGoogleスプレッドシートと競合する動きだと報じ、Microsoft株は同日の取引で約2%下落しました。Anthropicの担当者はBloombergに対し、Sheetsはまだ基本機能のみで高度な財務モデル向けではないと説明しています。",
+      "tickers": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "relatedSources": [
+        {
+          "name": "Bloomberg（Bloomberg Law掲載）",
+          "url": "https://news.bloomberglaw.com/private-equity/anthropic-unveils-office-tools-ahead-of-ipo-taking-on-microsoft"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/microsoft-stock-falls--as-anthropic-takes-aim-at-excel-and-workplace-software-5016411"
+        }
+      ],
+      "verifiedAt": "2026-11-12T07:19:00+09:00"
+    },
     {
       "id": "2026-11-10-coreweave-q3",
       "date": "2026-11-10",
