@@ -1,8 +1,32 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T07:19:00+09:00",
+  "updatedAt": "2026-11-13T01:51:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-12-nvidia-ceo-huang-resigns",
+      "date": "2026-11-12",
+      "title": "NVIDIAのジェンスン・フアンCEOが辞任 CFOのコレット・クレス氏が暫定CEOに",
+      "summary": "NVIDIA取締役会は11月12日、創業者のジェンスン・フアン氏が社長・CEO・取締役を即日辞任したと発表しました。最高財務責任者（CFO）のコレット・クレス氏がCFOを兼ねたまま暫定CEOに就き、取締役会は社内外の候補から後任の正式なCEOを探します。シノプシスの元CEOのハービー・ジョーンズ氏が同社初の取締役会議長に就任しました。11月17日の8〜10月期（2027年度第3四半期）決算発表は予定通り行うとしています。",
+      "category": "M&A・企業",
+      "sourceName": "NVIDIA（ニュースリリース）",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980"
+        },
+        {
+          "name": "Reuters（Investing.com掲載、AI関連株の下落）",
+          "url": "https://www.investing.com/news/stock-market-news/global-ai-stocks-sink-as-nvidia-crisis-deepens-sector-selloff-5021776"
+        }
+      ],
+      "marketNote": "11月8日に始まった同氏を巡る報道への独立調査の中での辞任です。ロイターによると、取締役会が同氏の処遇を検討していると報じられた12日、NVIDIA株は米国の取引開始前に7.8%下落し、CoreWeaveなどAI関連株も下げました。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-13T01:51:00+09:00"
+    },
     {
       "id": "2026-11-10-anthropic-claude-sheets-whiteboards-data",
       "date": "2026-11-10",

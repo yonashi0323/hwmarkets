@@ -3,6 +3,31 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-11-msci-strategy-metaplanet-index-removal",
+      "date": "2026-11-11",
+      "title": "MSCI、StrategyとメタプラネットをMSCI指数から除外へ 11月30日の終値時点で",
+      "summary": "指数算出会社MSCIは11月11日に発表した11月の定期見直しで、ビットコインを大量保有するStrategyや東証上場のメタプラネットなどを指数から除外すると明らかにしました。投資ファンドに近い性質の「非事業会社」を指数の対象外とする方針に基づく措置で、変更は11月30日の終値時点で実施されます。",
+      "category": "決算・企業",
+      "sourceName": "Reuters（Investing.com掲載）",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/msci-to-drop-strategy-from-global-indexes-putting-billions-in-passive-fund-inflows-at-risk-5020015",
+      "relatedSources": [
+        {
+          "name": "MSCI（2026年11月指数見直しの発表）",
+          "url": "https://app2.msci.com/webapp/index_ann/DocGet?format=html&lang=en&pub_key=t6TJpGLKQvg%3D"
+        },
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437"
+        }
+      ],
+      "marketNote": "ロイターによると、Strategyは除外で28億ドル分の株式が売却されると以前に警告していました。同社株は発表後の時間外取引で2.5%下落しました。",
+      "tickers": [
+        "MSTR",
+        "3350.T"
+      ],
+      "verifiedAt": "2026-11-13T01:51:00+09:00"
+    },
+    {
       "id": "2026-11-11-okxice-tokenized-securities-venue-launch",
       "date": "2026-11-11",
       "title": "OKXとICEの合弁OKXICE、米国株トークンの24時間取引を11月23日に開始へ",
@@ -302,5 +327,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-12T05:55:00+09:00"
+  "updatedAt": "2026-11-13T01:51:00+09:00"
 }
