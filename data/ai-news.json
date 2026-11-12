@@ -1,8 +1,30 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T05:48:00+09:00",
+  "updatedAt": "2026-11-13T07:18:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-12-cerebras-q3",
+      "date": "2026-11-12",
+      "title": "Cerebras 7〜9月期、中核売上高70%増の2.3億ドル 通期見通しを上方修正",
+      "summary": "AI半導体のCerebras Systemsは11月12日、2026年7〜9月期の決算を発表しました。売上高（GAAP）は前年同期比55%増の2億1,080万ドル、新株予約権の償却などを調整した中核売上高は70%増の2億3,090万ドルで、いずれも過去最高です。クラウド関連の中核売上高は272%増の1億4,490万ドルでした。純損失は1億6,120万ドル（1株0.67ドル）です。10〜12月期の中核売上高を3億1,000万〜3億3,000万ドル、2026年通期を9億4,000万〜9億6,000万ドルと見込み、通期見通しを引き上げました。Oracle Cloud Infrastructureへの推論技術の統合（2027年提供）や、大手3社に入るハイパースケーラーとのクラウド契約も公表しました。",
+      "category": "決算・設備投資",
+      "sourceName": "Cerebras Systems（IR・決算発表）",
+      "sourceUrl": "https://www.cerebras.ai/press-release/cerebras-systems-delivers-record-revenue-in-third-quarter-2026-raises-full-yea-3402195",
+      "marketNote": "CNBCによると、中核売上高と10〜12月期見通しはLSEGの市場予想を上回り、株価は時間外取引で18%上昇しました。フェルドマンCEOは同日、新たな契約相手がMicrosoftで、売上計上は2027年1〜3月期から始まる見通しだと説明しました。同社株は5月の上場以降、約47%下落していました。",
+      "tickers": [
+        "CBRS",
+        "MSFT",
+        "ORCL"
+      ],
+      "relatedSources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
+        }
+      ],
+      "verifiedAt": "2026-11-13T07:18:00+09:00"
+    },
     {
       "id": "2026-11-12-google-gemini-4-hydrogen",
       "date": "2026-11-12",
