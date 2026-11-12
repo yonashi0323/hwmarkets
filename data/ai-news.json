@@ -1,8 +1,28 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T01:51:00+09:00",
+  "updatedAt": "2026-11-13T05:48:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-12-google-gemini-4-hydrogen",
+      "date": "2026-11-12",
+      "title": "Google、高速モデル「Gemini 4 Hydrogen」を公開 検索や無料版アプリにも順次提供",
+      "summary": "Googleは11月12日、コーディングやエージェント作業向けの高速モデル「Gemini 4 Hydrogen」を発表し、全世界で提供を始めました。Gemini API・AI Studioの全利用枠、Gemini for business、Geminiアプリ、Google検索で使え、無料のアプリ利用者には自動モデル選択を通じて提供します。料金は100万トークンの文脈全体で一律、入力100万トークンあたり1.50ドル、出力7.50ドルです。同社によると、従来の高速モデルGemini 3.8 Flashより2.5倍速く作業を終え、Artificial Analysisの総合指標では標準設定で上位モデルのGemini 4 Argonを上回りました（51対50）。複数モデルを自動で切り替える「Orchestrator」もGoogle Antigravityに導入しました。",
+      "category": "AIモデル",
+      "sourceName": "Google（公式ブログ）",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "marketNote": "11月10日に一般提供した最上位モデルGemini 4 Carbonに続く発表で、検索の全利用者に広げる点が特徴です。性能や速度の比較は同社の発表に基づきます。Alphabet（GOOGL）の生成AI収益化に関わる材料です。",
+      "tickers": [
+        "GOOGL"
+      ],
+      "relatedSources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+        }
+      ],
+      "verifiedAt": "2026-11-13T05:48:00+09:00"
+    },
     {
       "id": "2026-11-12-nvidia-ceo-huang-resigns",
       "date": "2026-11-12",
