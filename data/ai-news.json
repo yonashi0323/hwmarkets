@@ -1,8 +1,37 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T07:18:00+09:00",
+  "updatedAt": "2026-11-14T01:55:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-12-nonprofits-frontier-ai-freeze-lawsuit",
+      "date": "2026-11-12",
+      "title": "米非営利団体、OpenAI・Anthropic・Googleなど5社を提訴 最先端AIの開発凍結を要求",
+      "summary": "米消費者団体Public Citizenなど4つの非営利団体は11月12日、Anthropic、Google、Meta、OpenAI、SpaceXのAI部門（SpaceX Super Intelligence）を相手取り、カリフォルニア州サンフランシスコ郡上級裁判所に提訴しました。同州の不正競争防止法（UCL）に基づき、各社が提訴時点で持つ最も高性能なAIを上回るシステムの開発・提供を差し止めるよう求めています。原告側は、AI企業の経営者自身が生物兵器やサイバー攻撃などの深刻なリスクを警告していると主張しています。訴えは差し止めを求めるもので、裁判所が命令を出したわけではありません。",
+      "category": "規制・政策",
+      "sourceName": "Public Citizen（原告団体の発表）",
+      "sourceUrl": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+      "marketNote": "ロイターによると、Metaの広報担当者はコメントを控え、他の各社はすぐには回答しませんでした。OpenAIを巡っては、フロリダ州が9月に外部監督なしの新モデル開発を禁じるよう裁判所に求めており、この申し立ては係争中です。",
+      "tickers": [
+        "GOOGL",
+        "META"
+      ],
+      "relatedSources": [
+        {
+          "name": "AP通信",
+          "url": "https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba"
+        },
+        {
+          "name": "ロイター（CNBC TV18転載）",
+          "url": "https://www.cnbctv18.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development-20033138.htm"
+        },
+        {
+          "name": "訴状（Courthouse News掲載）",
+          "url": "https://www.courthousenews.com/wp-content/uploads/2026/11/Irreplaceable-et-al-v.-Anthropic-et-al.pdf"
+        }
+      ],
+      "verifiedAt": "2026-11-14T01:55:00+09:00"
+    },
     {
       "id": "2026-11-12-cerebras-q3",
       "date": "2026-11-12",
