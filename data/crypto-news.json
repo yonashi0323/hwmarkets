@@ -3,6 +3,28 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-12-trump-sec-cftc-nominations",
+      "date": "2026-11-12",
+      "title": "トランプ大統領、SEC・CFTC委員に計4人を指名 ピアース氏の後任も",
+      "summary": "米ホワイトハウスは11月12日、証券取引委員会（SEC）と商品先物取引委員会（CFTC）の委員候補計4人の指名を上院に送付したと発表しました。SECにはスティーブン・レバイン氏（任期2030年6月5日まで、ヘスター・ピアース氏の後任）とクリスティン・ジョンソン氏（同2029年6月5日まで）、CFTCにはネイサン・アノニック氏（同2031年6月19日まで）とマシュー・ローランド氏（同2028年4月13日まで）を指名しました。いずれも上院の承認が必要で、現時点では就任していません。",
+      "category": "規制・政策",
+      "sourceName": "米ホワイトハウス（上院への指名送付）",
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/11/nominations-sent-to-the-senate-16a6/",
+      "marketNote": "SECとCFTCはいずれも暗号資産市場の監督に関わります。Bloomberg Lawによると、ジョンソン氏とローランド氏は民主党系で、超党派の顔ぶれとなりました。CoinDeskによると、SECは現在アトキンス委員長とウエダ委員の2人、CFTCはセリグ委員長1人のみです。",
+      "tickers": [],
+      "relatedSources": [
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/securities-law/trump-nominates-bipartisan-slate-of-cftc-sec-commissioners"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year"
+        }
+      ],
+      "verifiedAt": "2026-11-14T05:47:00+09:00"
+    },
+    {
       "id": "2026-11-11-msci-strategy-metaplanet-index-removal",
       "date": "2026-11-11",
       "title": "MSCI、StrategyとメタプラネットをMSCI指数から除外へ 11月30日の終値時点で",
@@ -327,5 +349,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-13T01:51:00+09:00"
+  "updatedAt": "2026-11-14T05:47:00+09:00"
 }

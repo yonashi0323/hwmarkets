@@ -1,8 +1,38 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T01:55:00+09:00",
+  "updatedAt": "2026-11-14T05:47:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-13-openai-chatgpt-wallet",
+      "date": "2026-11-13",
+      "title": "OpenAI、「ChatGPT Wallet」を開始 AIエージェントが利用者の承認を得て決済",
+      "summary": "OpenAIは11月13日、AIエージェントが利用者に代わって買い物の支払いをする「ChatGPT Wallet」を発表しました。American Express、Mastercard、Visaと提携して開発し、常時稼働型エージェント「dots」を通じて、まず米国のChatGPT Pro会員（18歳以上、対象の米国発行カード保有者）に順次提供します。利用者は購入ごとに商品・合計額・カードを確認し、Face IDや指紋認証で承認します。決済ネットワークが実際のカード情報の代わりにトークンを発行するため、事業者やエージェントにはカード番号が渡りません。",
+      "category": "AIサービス",
+      "sourceName": "OpenAI（公式発表）",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "marketNote": "OpenAIは将来的に、利用者が支出上限や購入カテゴリーなどを設定して購入をエージェントに任せられるようにする考えを示していますが、現時点では購入ごとの承認が必要です。ロイターとBloomberg Lawも同日報じました。",
+      "tickers": [
+        "AXP",
+        "MA",
+        "V"
+      ],
+      "relatedSources": [
+        {
+          "name": "ロイター（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/openai-launches-chatgpt-wallet-letting-ai-agents-pay-for-purchases-5026114"
+        },
+        {
+          "name": "OpenAIヘルプセンター",
+          "url": "https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet"
+        },
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/artificial-intelligence/openai-launches-chatgpt-wallet-for-agentic-payments"
+        }
+      ],
+      "verifiedAt": "2026-11-14T05:47:00+09:00"
+    },
     {
       "id": "2026-11-12-nonprofits-frontier-ai-freeze-lawsuit",
       "date": "2026-11-12",
