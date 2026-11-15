@@ -3,6 +3,27 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-15-bitcoin-four-month-low",
+      "date": "2026-11-15",
+      "title": "ビットコイン、一時6万2,112ドルと7月以来の安値 週末に約20億ドルの清算",
+      "summary": "ブルームバーグによると、ビットコインは11月14日の米国時間に5.7%下落し、15日のアジア時間には一時6万2,112ドルと7月14日以来の安値を付けました。イーサリアムも15日に一時1,711ドルと7月8日以来の安値となりました。Coinglassのデータでは、シンガポール時間15日朝までの24時間に約20億ドル相当の暗号資産ポジションが強制清算され、大半が買い持ちでした。ビットコインは10月21日から約25%下落しています。",
+      "category": "市場・取引所",
+      "sourceName": "ブルームバーグ（Business Standard掲載）",
+      "sourceUrl": "https://www.business-standard.com/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html",
+      "marketNote": "ブルームバーグは、利上げ観測、米国の現物ビットコインETFからの資金流出、AI関連を背景とするリスク回避、Binanceの約60億ドルのハッキング被害の影響が重なったと伝えています。年初来安値は7月1日の5万7,742ドルです。",
+      "tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "relatedSources": [
+        {
+          "name": "ブルームバーグ（The Straits Times掲載）",
+          "url": "https://www.straitstimes.com/business/bitcoin-tumbles-to-three-month-low-as-liquidations-accelerate"
+        }
+      ],
+      "verifiedAt": "2026-11-16T07:26:00+09:00"
+    },
+    {
       "id": "2026-11-12-trump-sec-cftc-nominations",
       "date": "2026-11-12",
       "title": "トランプ大統領、SEC・CFTC委員に計4人を指名 ピアース氏の後任も",
@@ -23,6 +44,26 @@
         }
       ],
       "verifiedAt": "2026-11-14T05:47:00+09:00"
+    },
+    {
+      "id": "2026-11-12-dtcc-tokenization-solana",
+      "date": "2026-11-12",
+      "title": "米DTCC、トークン化サービスをSolanaに接続へ 2027年後半に提供予定",
+      "summary": "米証券保管振替機関（DTCC）は11月12日、傘下のDTCが保管する適格資産をSolana上でトークン化できるようにする計画を発表しました。10月28日に始めた「DTCCトークン化サービス（DTS）」をSolanaのレイヤー1ネットワークに接続するもので、2027年後半の提供を予定しています。DTCCは、Solana上のトークン化資産にも従来の証券と同じ投資家保護、所有権、規制上の保護が適用されるとしています。",
+      "category": "市場・取引所",
+      "sourceName": "DTCC（公式発表）",
+      "sourceUrl": "https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-to-connect-with-solana",
+      "marketNote": "発表は計画段階で、提供開始は2027年後半の予定です。Solana財団も同日、この接続計画を公表しました。DTCCによると、DTCは2025年に150か国以上・総額114兆ドルの証券の保管・資産管理を担いました。",
+      "tickers": [
+        "SOL"
+      ],
+      "relatedSources": [
+        {
+          "name": "Solana財団（公式発表）",
+          "url": "https://solana.com/news/dtcc-tokenization-service-to-connect-with-solana"
+        }
+      ],
+      "verifiedAt": "2026-11-16T07:26:00+09:00"
     },
     {
       "id": "2026-11-11-msci-strategy-metaplanet-index-removal",
@@ -349,5 +390,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-14T05:47:00+09:00"
+  "updatedAt": "2026-11-16T07:26:00+09:00"
 }

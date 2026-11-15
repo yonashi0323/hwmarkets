@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T05:47:00+09:00",
+  "updatedAt": "2026-11-16T07:26:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
@@ -32,6 +32,28 @@
         }
       ],
       "verifiedAt": "2026-11-14T05:47:00+09:00"
+    },
+    {
+      "id": "2026-11-13-fed-financial-stability-report-ai-risk",
+      "date": "2026-11-13",
+      "title": "米FRB金融安定報告、AIが金融システムの最大リスクに 調査対象の87%が指摘",
+      "summary": "米連邦準備制度理事会（FRB）は11月13日、半年ごとの金融安定報告を公表しました。ニューヨーク連銀が9〜10月に市場関係者23人から聞き取った調査で、AIを重要なリスクに挙げた割合は87%と、春の調査の50%から大きく上昇し、最も多く挙げられたリスクとなりました。回答者は、株式の割高感と業績下振れによる相場調整、AIを使ったサイバー攻撃、AI関連の複雑な資金調達を懸念点に挙げています。報告によると、データセンターなど先端コンピューティング関連の債券・融資の発行額は2026年10月までに6,800億ドル超と、2023年通年（1,300億ドル）の約5倍に達しました。",
+      "category": "規制・政策",
+      "sourceName": "米連邦準備制度理事会（金融安定報告 2026年11月）",
+      "sourceUrl": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+      "marketNote": "調査は市場関係者の見方をまとめたもので、FRB自身の見解や危機の予測ではありません。報告は10月28日時点のデータに基づき、NVIDIAのCEO辞任前に実施されています。リスク資産の調整（52%）、長期金利の上昇（48%）も上位に挙がりました。",
+      "tickers": [],
+      "relatedSources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
+        },
+        {
+          "name": "ロイター（Investing.com掲載）",
+          "url": "https://www.investing.com/news/economy-news/ai-rockets-to-top-of-worries-about-financial-system-in-latest-fed-survey-5026488"
+        }
+      ],
+      "verifiedAt": "2026-11-16T07:26:00+09:00"
     },
     {
       "id": "2026-11-12-nonprofits-frontier-ai-freeze-lawsuit",
