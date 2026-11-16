@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T01:54:00+09:00",
+  "updatedAt": "2026-11-17T05:51:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
@@ -24,6 +24,28 @@
         }
       ],
       "verifiedAt": "2026-11-17T01:54:00+09:00"
+    },
+    {
+      "id": "2026-11-15-pax-silica-san-francisco-declaration",
+      "date": "2026-11-15",
+      "title": "米国と日本など10カ国、AIサプライチェーン保護で「サンフランシスコ宣言」に署名",
+      "summary": "米国務省は11月15日、米国と「Pax Silica」参加国の計10カ国が、AIのサプライチェーンを支える機微技術と重要インフラの保護に関する「サンフランシスコ宣言」に署名したと発表しました。署名国は米国、オーストラリア、インド、イスラエル、日本、韓国、カタール、シンガポール、アラブ首長国連邦（UAE）、英国です。宣言は経済安全保障を国家安全保障の基盤と位置付け、機微技術と重要インフラの保護を共同の取り組みとしました。",
+      "category": "規制・政策",
+      "sourceName": "米国務省 報道官室",
+      "sourceUrl": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity/",
+      "marketNote": "宣言では、AI政策の枠組み、主要分野でのAI導入、サプライチェーン協力、供給網の安全拠点、安全性・強靱性の5つの作業部会の設置が提案されました。作業部会は提案段階で、具体的な日程や予算は示されていません。Reutersは、中国との技術競争を背景にした取り組みだと報じています。",
+      "tickers": [],
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/world-news/us-allies-team-up-to-protect-ai-tech-and-infrastructure-amid-china-rivalry-5028738"
+        },
+        {
+          "name": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/artificial-intelligence/us-nine-nations-sign-san-francisco-ai-declaration"
+        }
+      ],
+      "verifiedAt": "2026-11-17T05:51:00+09:00"
     },
     {
       "id": "2026-11-13-openai-chatgpt-wallet",
