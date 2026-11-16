@@ -1,8 +1,30 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T07:26:00+09:00",
+  "updatedAt": "2026-11-17T01:54:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-16-us-bis-remote-access-ai-chip-rule",
+      "date": "2026-11-16",
+      "title": "米商務省、AI半導体の遠隔利用を規制 中国企業向けに計算能力を提供する海外データセンターに許可制",
+      "summary": "米商務省産業安全保障局（BIS）は11月16日、先端AI半導体やサーバーへの遠隔アクセスに関する暫定最終規則を公表しました。中国など懸念国（国家グループD:5）やマカオに本社を置く企業に対し、合計で一定規模（総TPP 1,200万超）を超える計算能力を直接・間接に提供する海外データセンター向けの輸出・再輸出・国内移転に許可を義務付けます。既に同様のサービスを提供しているデータセンターは、規則の発効から90日以内に許可を取得する必要があります。あわせて、インドネシア、マレーシア、シンガポール、タイ、ブラジル向けの先端半導体輸出にも新たに許可を求めます。",
+      "category": "規制・政策",
+      "sourceName": "米商務省産業安全保障局（BIS）プレスリリース・暫定最終規則",
+      "sourceUrl": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+      "marketNote": "5カ国向けの新たな許可要件は、米国に本社（最終親会社）を置く企業向けで所定の報告を行う場合は対象外です。ネット通販やSNSの推薦システム用途も遠隔アクセス規制の対象外とされます。規則は官報掲載日に発効し、意見公募は掲載から60日間です。バイデン前政権の「AI拡散規則」も正式に撤廃されます。",
+      "tickers": [],
+      "relatedSources": [
+        {
+          "name": "暫定最終規則（BIS、PDF）",
+          "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+        }
+      ],
+      "verifiedAt": "2026-11-17T01:54:00+09:00"
+    },
     {
       "id": "2026-11-13-openai-chatgpt-wallet",
       "date": "2026-11-13",
