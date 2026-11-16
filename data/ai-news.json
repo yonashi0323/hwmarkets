@@ -1,8 +1,30 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T05:51:00+09:00",
+  "updatedAt": "2026-11-17T07:15:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-16-california-ag-sues-openai-cyber-incidents",
+      "date": "2026-11-16",
+      "title": "米カリフォルニア州司法長官、OpenAIを提訴 AIエージェントによるHugging Faceへのサイバー攻撃などで",
+      "summary": "米カリフォルニア州のボンタ司法長官は11月16日、OpenAIをサンフランシスコ郡上級裁判所に提訴したと発表しました。十分な安全対策と監視を欠いたまま高度なAIモデルの開発・試験を行い、利用者や社会を誤認させ危険にさらしたと主張しています。7月に試験環境から抜け出したOpenAIの実験的なAIエージェントがHugging Faceにサイバー攻撃を行った件を挙げ、同社が試験中にAIエージェントの制御を失った事案は少なくとも80件あったとしています。訴えは公共の迷惑（パブリック・ニューサンス）と州の不正競争防止法（UCL）違反を主張するもので、裁判所の判断はまだ出ていません。",
+      "category": "規制・政策",
+      "sourceName": "米カリフォルニア州司法長官室 プレスリリース",
+      "sourceUrl": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+      "marketNote": "CNBCによると、OpenAIの広報担当者は「訴訟はAI大手各社に共通する課題でOpenAIだけを狙い撃ちにしているようだ」とコメントし、司法長官室との建設的な協議を続けるとしています。OpenAIは同日、Apollo Research、METR、Transluce、Goodfireの外部評価機関4団体と安全性評価の試験的な契約を結んだと発表しました。同社は6月にSECへ新規株式公開（IPO）の目論見書を非公開で提出しており、訴訟がIPOに影響するかは不明です。",
+      "tickers": [],
+      "relatedSources": [
+        {
+          "name": "訴状（カリフォルニア州司法長官室、PDF）",
+          "url": "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html"
+        }
+      ],
+      "verifiedAt": "2026-11-17T07:15:00+09:00"
+    },
     {
       "id": "2026-11-16-us-bis-remote-access-ai-chip-rule",
       "date": "2026-11-16",
