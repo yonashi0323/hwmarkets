@@ -1,8 +1,38 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T07:15:00+09:00",
+  "updatedAt": "2026-11-18T01:50:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-17-jensen-huang-open-to-return",
+      "date": "2026-11-17",
+      "title": "NVIDIA前CEOのフアン氏、取締役会が望めばCEOに復帰する意向 辞任後初の声明",
+      "summary": "NVIDIAのCEOを11月12日に辞任したジェンスン・フアン氏は11月17日、辞任後初めてとなる声明を出しました。CNBCが入手した声明で同氏は、私生活で重大な過ちを犯し取締役会に問題を生じさせたことを深く後悔しているとし、取締役会の独立調査に協力すると述べました。そのうえで、取締役会が株主や従業員、会社、米国にとって最善だと判断すれば、CEOに復帰することを光栄に思うとしています。復帰するかどうかは取締役会の判断で、現時点で決まったことはありません。",
+      "category": "M&A・企業",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+      "relatedSources": [],
+      "marketNote": "CNBCは11月16日、取締役会はフアン氏のCEO復帰を検討していないと報じていました。同じくCNBCによると、トランプ大統領は16日に同氏の復帰に前向きな考えを示しています。NVIDIAは17日の米国市場の取引終了後に8〜10月期決算を発表する予定です。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-18T01:50:00+09:00"
+    },
+    {
+      "id": "2026-11-17-nvidia-national-security-export-committee",
+      "date": "2026-11-17",
+      "title": "NVIDIA取締役会、国家安全保障・輸出管理の監督委員会を新設 委員長にノラ・ジョンソン氏",
+      "summary": "NVIDIAは11月17日、国家安全保障に関する方針、輸出管理の順守、国際貿易リスクの管理を取締役会レベルで監督する常設の「国家安全保障・輸出管理監督委員会」を設けたと発表しました。委員長は取締役のスザンヌ・ノラ・ジョンソン氏で、スティーブン・ニール氏とジョン・ダビリ氏が委員を務めます。社内の国家安全保障チームと国際貿易コンプライアンスチームは、日常業務について同委員会と暫定CEOのコレット・クレス氏に直接報告します。委員会は少なくとも四半期に1回開かれ、法務・国家安全保障・貿易管理の外部専門家を起用します。",
+      "category": "M&A・企業",
+      "sourceName": "NVIDIA（ニュースリリース）",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+      "relatedSources": [],
+      "marketNote": "フアン前CEOが11月12日に辞任して以降、同社の取締役会による初の大きなガバナンス上の対応です。取締役会議長のハービー・ジョーンズ氏は、政府や業界と協力して国家安全保障を守る枠組みづくりを進めるとコメントしています。米商務省は16日、中国企業向けに計算能力を提供する海外データセンターへのAI半導体の輸出を許可制とする規則を発表していました。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-18T01:50:00+09:00"
+    },
     {
       "id": "2026-11-16-california-ag-sues-openai-cyber-incidents",
       "date": "2026-11-16",
