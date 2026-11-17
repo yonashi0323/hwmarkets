@@ -1,8 +1,41 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T01:50:00+09:00",
+  "updatedAt": "2026-11-18T05:53:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-17-openai-gpt-6-2-astra-sol",
+      "date": "2026-11-17",
+      "title": "OpenAI、「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開 AstraはAPI料金を2割引き下げ",
+      "summary": "OpenAIは11月17日、高難度の仕事向けの最上位モデル「GPT-6.2 Astra」と、日常業務向けの効率的なモデル「GPT-6.2 Sol」を公開しました。同日からChatGPT WorkとCodexでPlus・Pro・Enterprise・Edu利用者に提供し、APIでも利用できます。AstraのAPI料金は100万トークンあたり入力8ドル、出力40ドルと、GPT-6 Astraより2割安く、キャッシュ入力は6割引きの0.40ドルです。Solは従来のGPT-6.1 Solと同じ料金（入力2ドル、出力10ドル）です。同社は、Astraが複数段階の専門業務を測るベンチマーク「Agents' Last Exam」でGPT-6 Astraを5.2ポイント上回ったとしています。",
+      "category": "AIモデル",
+      "sourceName": "OpenAI（公式発表）",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "relatedSources": [],
+      "marketNote": "OpenAIは両モデルとも、自社の安全性評価枠組みでサイバーセキュリティ能力が最も高い「Critical」水準に該当するとしています。またAstraは、AI研究を加速させる能力（自己改善）で「High」水準に達した初の一般公開モデルだと説明しています。ベンチマークの数値は同社の発表によるものです。",
+      "tickers": [],
+      "verifiedAt": "2026-11-18T05:53:00+09:00"
+    },
+    {
+      "id": "2026-11-17-microsoft-mai-models-ignite",
+      "date": "2026-11-17",
+      "title": "Microsoft、自社開発AIモデル7種を発表 コーディング向け「MAI Code 2」など低価格を強調",
+      "summary": "Microsoftは11月17日、年次イベント「Ignite」で自社開発のAIモデル群「MAI」の新モデル7種を発表しました。コーディング向けの「MAI Code 2」は、同社によるとOpenAIのGPT-6.1 Solの約98%の性能を約40%の価格で実現するとしており、GitHub Copilotで利用できます。軽量版の「MAI Code 2 Flash」はGitHub CopilotとMicrosoft Foundry（限定プレビュー）で提供します。サイバーセキュリティ向けの「MAI Cyber 2 Flash」は同社のセキュリティ製品に限って搭載し、12月中旬から順次切り替えます。このほか画像生成、音声対話、文字起こし、モデル振り分けのモデルも発表しました。",
+      "category": "AIモデル",
+      "sourceName": "Microsoft AI（公式発表）",
+      "sourceUrl": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai-5033766"
+        }
+      ],
+      "marketNote": "ロイターは、AnthropicやOpenAIに対抗する動きだと報じています。同社AI部門トップのムスタファ・スレイマン氏はロイターに対し、分野ごとに特化したモデルを開発することでコストを抑えつつ競合に並ぶ性能を実現していると説明しました。性能や価格の比較は同社の発表によるものです。",
+      "tickers": [
+        "MSFT"
+      ],
+      "verifiedAt": "2026-11-18T05:53:00+09:00"
+    },
     {
       "id": "2026-11-17-jensen-huang-open-to-return",
       "date": "2026-11-17",
