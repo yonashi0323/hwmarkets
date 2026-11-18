@@ -1,8 +1,48 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T07:20:00+09:00",
+  "updatedAt": "2026-11-19T01:55:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-17-nvidia-halts-hopper-china",
+      "date": "2026-11-17",
+      "title": "NVIDIA、中国向けH200など許可済みHopper製品の出荷を停止 8〜10月期は24億ドルを販売",
+      "summary": "NVIDIAの暫定CEOを務めるコレット・クレス氏は11月17日（米国時間）の決算説明会で、米政府の許可を得た中国向けのHopper世代データセンター製品の出荷をすでにやめていると明らかにしました。Reutersによると、同社は10月25日までの四半期に、これらの製品を中国へ24億ドル分販売していました。業績見通しにも同製品は含めていません。Hopper世代には、AIモデルの学習や運用に使われるH200が含まれます。出荷停止の理由や、停止が恒久的かどうかは説明していません。",
+      "category": "半導体・インフラ",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/nvidia-stops-shipping-usapproved-ai-chips-to-china-5035204",
+      "relatedSources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
+        }
+      ],
+      "marketNote": "米政府は1月、条件付きでH200の中国向け輸出申請を個別審査する方針に緩和していました。Reutersによると、中国側が大規模な輸入を認めず、約60万個のH200が香港で出荷待ちとなっていました。米商務省は16日、中国企業向けに計算能力を提供する海外データセンターへのAI半導体輸出を許可制とする規則を発表しています。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-19T01:55:00+09:00"
+    },
+    {
+      "id": "2026-11-17-nvidia-board-no-huang-reinstatement",
+      "date": "2026-11-17",
+      "title": "NVIDIA取締役会、フアン氏のCEO復帰を否定 同氏は12月1日に米下院委員会の聴取へ",
+      "summary": "NVIDIAのハービー・ジョーンズ取締役会議長は11月17日（米国時間）の決算説明会の冒頭で、取締役会はジェンスン・フアン氏のCEO復帰を予定していないと述べました。同日、米下院の中国特別委員会、外交委員会、情報特別委員会の3委員長は、フアン氏とNVIDIAのティム・テーター法務責任者が、非公開で記録を残す形式の聴取に任意で応じることになったと発表しました。フアン氏は12月1日、テーター氏は12月2日に出席します。",
+      "category": "M&A・企業",
+      "sourceName": "米下院 中国特別委員会（プレスリリース）",
+      "sourceUrl": "https://chinaselectcommittee.house.gov/media/press-releases/jensen-huang-and-nvidia-agree-to-appear-before-congress",
+      "relatedSources": [
+        {
+          "name": "CNBC（NVIDIA決算の速報）",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+        }
+      ],
+      "marketNote": "フアン氏は17日、取締役会が望めばCEOに復帰する意向を示していました。3委員長は声明で、中国側がNVIDIAの先端半導体を入手できた経緯などについて説明を求めるとしています。CNBCによると、NVIDIAはフアン氏の行動が国家安全保障や企業秘密を損なったかどうかの調査を法律事務所ワクテル・リプトンに依頼しています。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-19T01:55:00+09:00"
+    },
     {
       "id": "2026-11-17-nvidia-q3-fy2027-results",
       "date": "2026-11-17",
