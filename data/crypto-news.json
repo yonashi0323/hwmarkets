@@ -3,6 +3,22 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-18-adgm-court-freeze-binance-stolen-tokens",
+      "date": "2026-11-18",
+      "title": "アブダビの裁判所、Binanceから盗まれた暗号資産の凍結継続を命令 Circleなど18社が対象",
+      "summary": "Reutersが確認した裁判資料によると、アブダビ・グローバル・マーケット（ADGM）の裁判所は、10月29日にBinanceのウォレットから盗まれた約63億ドル相当の暗号資産の回収に向け、CircleやWorld Liberty Financialなど18社に対象トークンの凍結継続を命じました。対象企業は貸し出しや交換、他の資産との混合も禁じられます。裁判所は18社に不正の疑いはないとしています。Tetherは命令の対象外で、Binanceが直接返還を協議しています。",
+      "category": "取引所・セキュリティ",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.investing.com/news/economy-news/binance-says-it-has-court-order-to-get-back-crypto-frozen-after-63-billion-heist-5036806",
+      "marketNote": "Binanceはこれまでに約28億5000万ドル相当が第三者により凍結・差し止めされたとしており、Tetherは15億ドル相当を凍結したと説明していました。凍結命令を続けるかどうかを判断する次回審理は12月1日の予定です。",
+      "tickers": [
+        "BNB",
+        "USDC",
+        "USDT"
+      ],
+      "verifiedAt": "2026-11-19T07:14:00+09:00"
+    },
+    {
       "id": "2026-11-16-supreme-court-denies-custodia-master-account",
       "date": "2026-11-16",
       "title": "米最高裁、暗号資産銀行カストディアの上告を退ける FRBマスターアカウント巡る訴訟が終結",
@@ -412,5 +428,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-18T07:20:00+09:00"
+  "updatedAt": "2026-11-19T07:14:00+09:00"
 }

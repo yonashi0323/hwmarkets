@@ -1,8 +1,49 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T01:55:00+09:00",
+  "updatedAt": "2026-11-19T07:14:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-18-anthropic-ipo-priced-83",
+      "date": "2026-11-18",
+      "title": "Anthropic、IPO価格を1株83ドルに決定と報道 仮条件を上回り、19日にナスダック上場へ",
+      "summary": "Reuters、Bloomberg、CNBCは11月18日（米国時間）、AnthropicがIPO（新規株式公開）の公開価格を1株83ドルに決めたと、関係者の話として報じました。仮条件の70〜78ドルを上回り、売り出し規模も当初予定の8億2500万株から拡大したとしています。CNBCは、当初予定の株数で計算すると調達額は約685億ドルになると伝えました。株式は19日にナスダックで銘柄コード「ANT」として取引を始める予定です。Anthropicはコメントを控えています。",
+      "category": "資金調達・IPO",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "relatedSources": [
+        {
+          "name": "Reuters",
+          "url": "https://money.usnews.com/investing/news/articles/2026-11-18/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://news.bloomberglaw.com/tech-and-telecom-law/anthropic-is-said-to-price-ipo-at-83-per-share"
+        }
+      ],
+      "marketNote": "価格は関係者情報に基づく報道で、同社の正式発表は確認時点で出ていません。主幹事はGoldman SachsとMorgan Stanley。Reutersによると、同社の年換算売上高は10月末時点で約810億ドルです。Google、Microsoft、NVIDIA、AMDなどは公開価格で計260億ドルを出資することで合意しています（CNBC）。",
+      "tickers": [
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "MSFT"
+      ],
+      "verifiedAt": "2026-11-19T07:14:00+09:00"
+    },
+    {
+      "id": "2026-11-18-google-gemini-4-neon",
+      "date": "2026-11-18",
+      "title": "Google、「Gemini 4 Neon」を公開 CarbonとHydrogenの中間に位置するモデル",
+      "summary": "Googleは11月18日、ソフトウェア開発や業務分析、科学分野の作業向けの新モデル「Gemini 4 Neon」を発表し、提供を始めました。料金は入力100万トークンあたり3ドル（キャッシュ入力は0.15ドル）、出力15ドルで、文脈長は100万トークンです。Gemini APIの有料枠（Google AI Studio）、Gemini for business、Google Antigravity、Geminiアプリの有料プラン（Pro・Ultra）で使えます。同社によると、Artificial Analysisの総合指標（最高の思考設定）で61点の全体3位でした。",
+      "category": "AIモデル",
+      "sourceName": "Google（公式ブログ）",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "marketNote": "同社は、最上位のCarbonと高速なHydrogenの間で性能と効率を両立するモデルと位置づけています。性能やコストの比較は同社の発表に基づきます。サイバー防御向け版は「Fairwind Program」の参加者に数日内に提供を始める予定です。",
+      "tickers": [
+        "GOOGL"
+      ],
+      "verifiedAt": "2026-11-19T07:14:00+09:00"
+    },
     {
       "id": "2026-11-17-nvidia-halts-hopper-china",
       "date": "2026-11-17",
