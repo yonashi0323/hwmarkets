@@ -1,17 +1,47 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T07:14:00+09:00",
+  "updatedAt": "2026-11-20T05:51:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-19-anthropic-nasdaq-debut",
+      "date": "2026-11-19",
+      "title": "Anthropic、ナスダックに上場 初値は公開価格を約34%上回る111.50ドル",
+      "summary": "Anthropicは11月19日（米国時間）、ナスダックで銘柄コード「ANT」として取引を始めました。CNBCによると、初値は1株111.50ドルで、18日に決めた公開価格83ドルを約34%上回りました。初値時点の時価総額は約2兆100億ドルで、Apple、Microsoft、NVIDIA、Alphabet、Amazonに次ぐ規模です。9億8000万株を売り出したIPOの規模は813億ドルで、過去最大となりました。",
+      "category": "資金調達・IPO",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "relatedSources": [
+        {
+          "name": "Reuters（Al Jazeera掲載）",
+          "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        }
+      ],
+      "marketNote": "Reutersによると、取引開始はニューヨーク時間午前11時50分で、その後は伸び悩み、午後1時55分時点で95.69ドルまで下げました。同日の米国株は主要指数がそろって下落しています。株価は確認時点の情報で、終値ではありません。",
+      "tickers": [
+        "ANT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "verifiedAt": "2026-11-20T05:51:00+09:00"
+    },
     {
       "id": "2026-11-18-anthropic-ipo-priced-83",
       "date": "2026-11-18",
       "title": "Anthropic、IPO価格を1株83ドルに決定と報道 仮条件を上回り、19日にナスダック上場へ",
-      "summary": "Reuters、Bloomberg、CNBCは11月18日（米国時間）、AnthropicがIPO（新規株式公開）の公開価格を1株83ドルに決めたと、関係者の話として報じました。仮条件の70〜78ドルを上回り、売り出し規模も当初予定の8億2500万株から拡大したとしています。CNBCは、当初予定の株数で計算すると調達額は約685億ドルになると伝えました。株式は19日にナスダックで銘柄コード「ANT」として取引を始める予定です。Anthropicはコメントを控えています。",
+      "summary": "Reuters、Bloomberg、CNBCは11月18日（米国時間）、AnthropicがIPO（新規株式公開）の公開価格を1株83ドルに決めたと、関係者の話として報じました。仮条件の70〜78ドルを上回り、売り出し規模も当初予定の8億2500万株から拡大したとしています。CNBCは、当初予定の株数で計算すると調達額は約685億ドルになると伝えました。株式は19日にナスダックで銘柄コード「ANT」として取引を始める予定です。報道時点では、Anthropicはコメントを控えていました。",
       "category": "資金調達・IPO",
       "sourceName": "CNBC",
       "sourceUrl": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
       "relatedSources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
         {
           "name": "Reuters",
           "url": "https://money.usnews.com/investing/news/articles/2026-11-18/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says"
@@ -21,14 +51,40 @@
           "url": "https://news.bloomberglaw.com/tech-and-telecom-law/anthropic-is-said-to-price-ipo-at-83-per-share"
         }
       ],
-      "marketNote": "価格は関係者情報に基づく報道で、同社の正式発表は確認時点で出ていません。主幹事はGoldman SachsとMorgan Stanley。Reutersによると、同社の年換算売上高は10月末時点で約810億ドルです。Google、Microsoft、NVIDIA、AMDなどは公開価格で計260億ドルを出資することで合意しています（CNBC）。",
+      "marketNote": "Anthropicは同日、公開価格83ドル、売り出し9億8000万株（うち約9億5635万株を同社が売り出し）と正式に発表しました。主幹事はGoldman SachsとMorgan Stanley。Reutersによると、同社の年換算売上高は10月末時点で約810億ドルです。Google、Microsoft、NVIDIA、AMDなどは公開価格で計260億ドルを出資することで合意しています（CNBC）。",
       "tickers": [
         "GOOGL",
         "AMZN",
         "NVDA",
         "MSFT"
       ],
-      "verifiedAt": "2026-11-19T07:14:00+09:00"
+      "verifiedAt": "2026-11-19T07:14:00+09:00",
+      "history": [
+        {
+          "at": "2026-11-20T05:51:00+09:00",
+          "note": "Anthropicが11月18日付で公開価格を正式発表したことを確認し、補足の「正式発表は出ていない」との記述を発表内容に差し替え、同社発表を出典に追加しました。要約の「コメントを控えている」を報道時点の表現に改めました。"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-18-palo-alto-applied-compute",
+      "date": "2026-11-18",
+      "title": "Palo Alto Networks、AI企業Applied Computeを45億ドルで買収へ オープンウェイトモデルの企業導入を支援",
+      "summary": "米サイバーセキュリティ大手のPalo Alto Networksは11月18日（米国時間）、オープンウェイトAIモデルの追加学習（ポストトレーニング）と推論の基盤を手がけるApplied Computeを買収することで最終合意したと発表しました。全額株式による取引で、買収額は45億ドル（調整前）です。企業が自社データに合わせたオープンウェイトモデルを、パブリッククラウドやソブリン環境で安全に学習・運用できるようにするとしています。完了は同社の2027会計年度第3四半期を見込み、規制当局の承認などが条件です。",
+      "category": "M&A・企業",
+      "sourceName": "Palo Alto Networks",
+      "sourceUrl": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-to-acquire-applied-compute--bringing-secure-open-weight-ai-to-the-enterprise",
+      "relatedSources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/palo-alto-networks-buys-applied-compute-in-4-5-billion-deal-1"
+        }
+      ],
+      "marketNote": "Applied ComputeのYash Patil CEOは、買収完了後にPalo Alto Networksの共同最高AI責任者に就く予定です。発表は同社の2027会計年度第1四半期決算と同時で、Bloombergによると株価は時間外取引で9%上昇しました。",
+      "tickers": [
+        "PANW"
+      ],
+      "verifiedAt": "2026-11-20T05:51:00+09:00"
     },
     {
       "id": "2026-11-18-google-gemini-4-neon",
