@@ -19,6 +19,22 @@
       "verifiedAt": "2026-11-19T07:14:00+09:00"
     },
     {
+      "id": "2026-11-17-world-bank-stablecoin-citi-circle",
+      "date": "2026-11-17",
+      "title": "世界銀行グループ、CitiとCircleとステーブルコインによる資金支払いを検討 USDCで発行・決済",
+      "summary": "世界銀行グループは11月17日、規制されたドル建てステーブルコインの基盤を使い、顧客への支払いや決済のコスト効率・速度・透明性を高められるか検討すると発表しました。CitiとCircleと組み、コルレス銀行網に基づく現在の資金支払いの仕組みと併用・改善できるかを探ります。Citiは既存の銀行網との接続を、CircleはUSDCを発行・決済するステーブルコイン決済基盤を担います。",
+      "category": "市場・取引所",
+      "sourceName": "World Bank（公式発表）",
+      "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/11/17/world-bank-group-explores-regulated-stablecoins-to-modernize-payments-redirect-res",
+      "marketNote": "取り組みは、96カ国・350超の事業が参加する同グループのブロックチェーン基盤「FundsChain」を土台とします。初期段階では仲介型で相互運用可能な支払いモデルに絞り、デジタル資産の利用が認められている借入国が対象です。将来は他の銀行との連携も検討するとしています。",
+      "tickers": [
+        "USDC",
+        "CRCL",
+        "C"
+      ],
+      "verifiedAt": "2026-11-20T07:12:00+09:00"
+    },
+    {
       "id": "2026-11-16-supreme-court-denies-custodia-master-account",
       "date": "2026-11-16",
       "title": "米最高裁、暗号資産銀行カストディアの上告を退ける FRBマスターアカウント巡る訴訟が終結",
@@ -428,5 +444,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-19T07:14:00+09:00"
+  "updatedAt": "2026-11-20T07:12:00+09:00"
 }

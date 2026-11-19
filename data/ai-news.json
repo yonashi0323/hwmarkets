@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T05:51:00+09:00",
+  "updatedAt": "2026-11-20T07:12:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
@@ -28,6 +28,20 @@
         "AMZN"
       ],
       "verifiedAt": "2026-11-20T05:51:00+09:00"
+    },
+    {
+      "id": "2026-11-19-google-gemini-mac-computer-use",
+      "date": "2026-11-19",
+      "title": "Google、Mac版Geminiアプリに「コンピューター操作」機能 アプリやウェブの作業を代行",
+      "summary": "Googleは11月19日、Mac向けGeminiアプリで、AIが利用者に代わってMacのアプリやウェブサイトを操作する「コンピューター操作（computer use）」機能の提供を始めたと発表しました。ローカルファイルやデスクトップアプリ、ウェブをまたぐ複数手順の作業を指示すると、Geminiが別の分離されたウィンドウで作業し、チャット内のライブプレビューで進行を確認できます。利用者はアクセスを許可するアプリを選び、途中で一時停止したり、重要な操作の前に承認したりできます。",
+      "category": "AIサービス",
+      "sourceName": "Google（公式ブログ）",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "marketNote": "まず米国で英語版として順次提供され、Apple Silicon搭載のmacOS Sequoia 15.0以降のMacと、18歳以上の個人アカウントでGoogle AI Plus・Pro・Ultraの契約が必要です。他地域への展開時期は示されていません。",
+      "tickers": [
+        "GOOGL"
+      ],
+      "verifiedAt": "2026-11-20T07:12:00+09:00"
     },
     {
       "id": "2026-11-18-anthropic-ipo-priced-83",
