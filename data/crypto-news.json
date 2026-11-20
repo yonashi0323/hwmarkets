@@ -3,6 +3,27 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-20-bitcoin-below-60000",
+      "date": "2026-11-20",
+      "title": "ビットコイン、7月以来初めて6万ドルを割り込む イーサリアムも5%超下落",
+      "summary": "ロイターによると、ビットコインは11月20日（米国時間）に6万ドルを下回り、7月以来の水準となりました。同日の報道時点で前日比3.45%安の5万9,381ドル、イーサリアムは5.23%安の1,648.91ドルでした。割高感への懸念がAI関連銘柄やその他のリスク資産の重荷になったと伝えています。",
+      "category": "市場・取引所",
+      "sourceName": "ロイター（Business Recorder掲載）",
+      "sourceUrl": "https://www.brecorder.com/news/40450009/bitcoin-falls-below-60000-level",
+      "marketNote": "ロイターは、巨額のAIインフラ投資の採算への懸念、借り入れコストの上昇、米中間選挙での民主党勝利に伴う規制リスク、NVIDIAのフアンCEOの退任が暗号資産市場を揺さぶってきたと伝えています。米主要株価指数は2025年4月以来の大幅な週間下落となる勢いだとしています。",
+      "tickers": [
+        "BTC",
+        "ETH"
+      ],
+      "relatedSources": [
+        {
+          "name": "ロイター（Euronext掲載）",
+          "url": "https://live.euronext.com/en/financial-news/bitcoin-falls-below-60000-level"
+        }
+      ],
+      "verifiedAt": "2026-11-21T01:53:00+09:00"
+    },
+    {
       "id": "2026-11-18-adgm-court-freeze-binance-stolen-tokens",
       "date": "2026-11-18",
       "title": "アブダビの裁判所、Binanceから盗まれた暗号資産の凍結継続を命令 Circleなど18社が対象",
@@ -444,5 +465,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-20T07:12:00+09:00"
+  "updatedAt": "2026-11-21T01:53:00+09:00"
 }
