@@ -1,8 +1,28 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T07:12:00+09:00",
+  "updatedAt": "2026-11-21T05:54:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-20-sec-nvidia-accounting-probe",
+      "date": "2026-11-20",
+      "title": "米SEC、NVIDIAの会計処理を調査とロイター報道 株価は一時約13%安",
+      "summary": "ロイターは11月20日（米国時間）、米証券取引委員会（SEC）の執行部門がNVIDIAの会計処理を巡る潜在的な問題を調べていると、事情を知る2人の話として報じました。SECの調査はウォール・ストリート・ジャーナルが17日に報じていましたが、会計処理が焦点であることはロイターが初めて伝えました。SECはコメントを控え、NVIDIAは報道時点で回答していません。調査の開始時期や対象となる具体的な会計上の論点は明らかになっていません。",
+      "category": "規制・政策",
+      "sourceName": "Reuters（独自報道）",
+      "sourceUrl": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+      "relatedSources": [
+        {
+          "name": "Bloomberg Tax",
+          "url": "https://news.bloombergtax.com/financial-accounting/wall-street-regulator-probing-nvidias-accounting-reuters-says"
+        }
+      ],
+      "marketNote": "ロイターによると、NVIDIA株は報道前に6%超下げており、報道後は下げ幅を約13%に広げました（LSEGデータ、確認時点の値で終値ではありません）。ロイターは、NVIDIAが昨年、地域別売上高の集計を請求先から顧客の本社所在地ベースに変え、シンガポールが内訳から外れた点に改めて注目が集まっていると伝えています。調査は不正の証拠ではなく、多くは処分なしで終わるとも指摘しています。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-21T05:54:00+09:00"
+    },
     {
       "id": "2026-11-19-anthropic-nasdaq-debut",
       "date": "2026-11-19",
