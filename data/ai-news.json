@@ -1,8 +1,105 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T05:54:00+09:00",
+  "updatedAt": "2026-11-23T07:18:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-21-riemann-hypothesis-claude-lean-verified",
+      "date": "2026-11-21",
+      "title": "Anthropicの数学者、Claudeと共にリーマン予想を証明と発表 Leanコミュニティが形式証明を「正しい」と認定",
+      "summary": "Anthropicに所属する数学者レベント・アルポゲ氏は11月20日、AIのClaudeと共同でリーマン予想の証明を見つけたとする文書を個人サイトで公開し、証明支援言語Leanで書いた約1700万行の形式証明を添えました。Leanと数学ライブラリMathlibのコミュニティは21日、Lean FROとMathlib Initiativeが支持する共同声明を出し、命題と証明の両方が正しいと認定しました。Lean公式のカーネルに加え、独立に実装された複数の検証ツールでも証明を確認したとしています。",
+      "category": "AIモデル",
+      "sourceName": "Leanコミュニティ（共同声明）",
+      "sourceUrl": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "relatedSources": [
+        {
+          "name": "Levent Alpöge（本人の文書・PDF）",
+          "url": "https://alpo.ge/remark.pdf"
+        },
+        {
+          "name": "MIT Andrew Sutherland氏の検証記録",
+          "url": "https://math.mit.edu/~drew/grh/"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+        }
+      ],
+      "marketNote": "リーマン予想は1859年に提起された素数の分布に関する未解決問題で、クレイ数学研究所のミレニアム懸賞問題の一つです。今回の認定は、Leanのコードが証明として正しいことを機械的に確かめたもので、学術誌の査読やクレイ研究所の判断ではありません。アルポゲ氏は証明が非常に長く、今後わかりやすく書き直す意向を示しています。発表はAnthropicのナスダック上場の翌日で、同氏は文書で発表時期の悪さにも触れています。",
+      "tickers": [
+        "ANT"
+      ],
+      "verifiedAt": "2026-11-23T07:18:00+09:00"
+    },
+    {
+      "id": "2026-11-20-us-stocks-correction-ai-selloff",
+      "date": "2026-11-20",
+      "title": "AI関連株の売りで米S&P500とダウが調整局面入り NVIDIAは約14%安、ナスダックは1日で5%超下落",
+      "summary": "ロイターによると、米国株は11月20日も大きく下げ、S&P500は3.70%安の6,910.42、ダウ工業株30種平均は1.93%安の4万8,147.33で取引を終え、ともに最高値から10%超下がる「調整局面」に入りました。ナスダック総合指数は5.28%安の2万2,617.73でした。Anthropicの上場が投資家の不安を和らげられず、AI関連の取引が巻き戻されたと伝えています。S&P500は7営業日続落でした。",
+      "category": "決算・設備投資",
+      "sourceName": "ロイター（The Hindu BusinessLine掲載）",
+      "sourceUrl": "https://www.thehindubusinessline.com/markets/stock-markets/wall-street-selloff-deepens-as-dow-sp-500-enter-correction-nasdaq-plunges-528/article71727285.ece",
+      "relatedSources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
+        },
+        {
+          "name": "CNBC（Anthropic株）",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+        }
+      ],
+      "marketNote": "CNBCによると、NVIDIAは同日約14%下げ、週間では23%安、11月だけで40%近く下落しました。AMDも13%超下げています。Anthropicは上場2日目に8.5%安の88.91ドルで終え、公開価格83ドルに近づきました。CNBCは、ナスダックが週間で10%下げ、2020年3月以来の悪い週になったと伝えています。",
+      "tickers": [
+        "NVDA",
+        "ANT",
+        "AMD"
+      ],
+      "verifiedAt": "2026-11-23T07:18:00+09:00"
+    },
+    {
+      "id": "2026-11-20-anthropic-ipo-closing-greenshoe",
+      "date": "2026-11-20",
+      "title": "Anthropic、IPOの手続きを完了 追加売り出し枠の全量行使で調達総額は約935億ドルに",
+      "summary": "Anthropicは11月20日（米国時間）、1株83ドルでのIPOを完了したと発表しました。引受会社が追加売り出し枠（グリーンシュー・オプション）の1億4700万株を全量行使し、売り出しは合計11億2700万株、総額約935億ドルとなりました。このうち約916億ドルが同社の手取り（手数料などを差し引く前）です。同時に、AMD、Broadcom、Google、Micron、Microsoft、NVIDIA、TSMCの関連会社に同じ価格で計約260億ドル分の株式を私募で割り当て、IPOと合わせた総額は約1195億ドルとなりました。",
+      "category": "資金調達・IPO",
+      "sourceName": "Anthropic（公式発表）",
+      "sourceUrl": "https://www.anthropic.com/news/ipo-close",
+      "relatedSources": [
+        {
+          "name": "ロイター（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/anthropics-ipo-bank-closed-position-meant-to-stabilize-stock-removing-source-of-support-5042311"
+        }
+      ],
+      "marketNote": "ロイターによると、株価安定化を担うMorgan Stanleyが追加枠を公開価格で全量行使したため、株価が83ドルを下回っても、市場での買い戻しによる下支えはできなくなりました。発表当日の株価は一時11%超下げ、CNBCによると終値は前日比8.5%安の88.91ドルでした。",
+      "tickers": [
+        "ANT"
+      ],
+      "verifiedAt": "2026-11-23T07:18:00+09:00"
+    },
+    {
+      "id": "2026-11-20-signal-blocks-os-ai-agents",
+      "date": "2026-11-20",
+      "title": "Signal、OSに組み込まれたAIエージェントの画面読み取りを制限 Apple・Google・Microsoftに対策を要求",
+      "summary": "暗号化メッセージアプリのSignalは11月20日、iOS 27やAndroidに組み込まれたAIエージェントがSignalの画面内容を読み取らないよう、スクリーンショットを初期設定で制限すると発表しました。Androidでは、AIアシスタントによる画面の取得を検知すると「画面のセキュリティ」設定を自動で有効にします。Siri AIやGoogleのGemini Intelligenceなどを名指しし、OSに深く統合されたAIがアプリ側のプライバシー保護を損なうと指摘しました。",
+      "category": "AIサービス",
+      "sourceName": "Signal（公式ブログ）",
+      "sourceUrl": "https://signal.org/blog/protecting-your-privacy/",
+      "relatedSources": [
+        {
+          "name": "ロイター（The Korea Times掲載）",
+          "url": "https://www.koreatimes.co.kr/world/20261121/signal-restricts-screenshots-to-block-ai-agents-from-reading-messages"
+        }
+      ],
+      "marketNote": "Signalは対策が「不完全」で、macOSでは確実にスクリーンショットを防げないため実装できないとしています。Apple、Google、Microsoftに対し、アプリがAIによるデータ利用を拒否できる仕組みと、AIエージェントの動作に関する文書の整備を求めました。ロイターによると、3社は報道時点でコメントの要請に応じていません。",
+      "tickers": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "META"
+      ],
+      "verifiedAt": "2026-11-23T07:18:00+09:00"
+    },
     {
       "id": "2026-11-20-sec-nvidia-accounting-probe",
       "date": "2026-11-20",
