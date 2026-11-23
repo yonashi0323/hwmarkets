@@ -1,8 +1,52 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T07:18:00+09:00",
+  "updatedAt": "2026-11-24T01:47:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-23-nvidia-reinstates-jensen-huang-ceo",
+      "date": "2026-11-23",
+      "title": "NVIDIA、ジェンスン・フアン氏をCEOに復帰させると発表 取締役会が全会一致で決定",
+      "summary": "NVIDIAは11月23日（米国時間）、ジェンスン・フアン氏が社長兼CEOと取締役に即日復帰したと発表しました。取締役会が同氏との協議や面談を重ね、全会一致で決めました。判断にあたって米政府高官から意見を聞き、復帰が国家安全保障上のリスクにはならないと確信しているとしています。暫定CEOを務めたコレット・クレス氏はCFOを続け、ハービー・ジョーンズ氏も取締役会議長にとどまります。米SECへの提出書類によると、取締役会の決定は22日付です。",
+      "category": "M&A・企業",
+      "sourceName": "NVIDIA（ニュースリリース）",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "relatedSources": [
+        {
+          "name": "NVIDIA（SEC提出書類・Form 8-K）",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+        }
+      ],
+      "marketNote": "取締役会は17日の決算説明会でフアン氏の復帰を予定していないと述べていました。同氏が外国の情報工作の標的になったとの報道を受けた独立取締役委員会の調査は最後まで続け、新たに最高コンプライアンス責任者（CCO）を置くため人選を始めるとしています。CNBCによると、NVIDIA株は発表後に33%上昇しました（報道時点の値で終値ではありません）。12月1日に予定されている米下院委員会の非公開聴取に変更があるかどうかは明らかになっていません。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-24T01:47:00+09:00"
+    },
+    {
+      "id": "2026-11-23-amazon-decart-optimization-stack",
+      "date": "2026-11-23",
+      "title": "Amazon、AI新興企業Decartの最適化技術を取得へ 創業者らも合流、Trainiumの性能向上狙う",
+      "summary": "Amazonは11月23日（米国時間）、AI新興企業Decartの独自技術「Decart Optimization Stack（DOS）」を購入する契約を結んだと発表しました。共同創業者3人とAI研究者・技術者のチームもAmazonに加わります。DOSはハードウェアとソフトウェアの両面からAIの処理性能を高める技術で、Amazonは推論や自社開発の半導体（Trainiumなど）の最適化に生かし、顧客がAIモデルをより速く低コストで学習・運用できるようにするとしています。取引の完了には規制当局の承認などが必要です。",
+      "category": "M&A・企業",
+      "sourceName": "Amazon（公式発表）",
+      "sourceUrl": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/amazon-to-buy-decarts-ai-chip-optimization-tech-in-latest-ai-talent-grab-5046000"
+        }
+      ],
+      "marketNote": "Amazonは取引条件を開示していません。Reutersによると、Bloombergは関係者の話として取引額を約75億ドルと報じており、PitchBookのデータでは直近の企業価値は約40億ドルでした。Decartは2025年からAmazonと協力してTrainiumでの性能改善に取り組んできました。大手IT企業が技術と人材をまとめて取り込む動きの一つとされています。",
+      "tickers": [
+        "AMZN"
+      ],
+      "verifiedAt": "2026-11-24T01:47:00+09:00"
+    },
     {
       "id": "2026-11-21-riemann-hypothesis-claude-lean-verified",
       "date": "2026-11-21",
