@@ -3,6 +3,27 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-23-upbit-sky-usds-trading-caution",
+      "date": "2026-11-23",
+      "title": "韓国Upbit、ステーブルコインUSDSとSKYを「取引注意銘柄」に指定 入金を停止",
+      "summary": "韓国の大手暗号資産取引所Upbitは11月23日、Sky Protocolのドル連動型ステーブルコイン「USDS」とガバナンストークン「SKY」を取引注意銘柄に指定し、同日午後8時（韓国時間）から両銘柄の入金を停止したと発表しました。発行・運営主体の能力や重要事項の開示状況などを考慮し、利用者に被害が生じるおそれがあると判断したとしています。取引は続けられますが、12月21〜24日の週までに指定の解除・延長または取引支援の終了を判断します。",
+      "category": "市場・取引所",
+      "sourceName": "Upbit（公式告知）",
+      "sourceUrl": "https://www.upbit.com/service_center/notice?id=6818",
+      "relatedSources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025"
+        }
+      ],
+      "marketNote": "対象はSKYとUSDSのウォン・BTC・USDT建ての各ペアです。CoinDeskによると、BithumbとCoinoneも同様の措置を取り、入金停止後にUSDSは韓国の取引所でドルとの連動を大きく上回る価格で取引され、Upbitでは一時約5,000ウォン（約3.7ドル）を付けました。Coinoneは、Sky Protocolの規約変更で担保付き融資の清算が制限され、ステーキングしたUSDSの保有者が損失を負い、引き出し制限が長引く可能性があることを理由に挙げています。",
+      "tickers": [
+        "USDS",
+        "SKY"
+      ],
+      "verifiedAt": "2026-11-24T07:22:00+09:00"
+    },
+    {
       "id": "2026-11-23-okxice-tsv-launch",
       "date": "2026-11-23",
       "title": "OKXICE、トークン化した米国株などの24時間取引を開始 113銘柄を順次提供",
@@ -527,5 +548,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-24T05:50:00+09:00"
+  "updatedAt": "2026-11-24T07:22:00+09:00"
 }
