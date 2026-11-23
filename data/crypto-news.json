@@ -3,6 +3,30 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-23-okxice-tsv-launch",
+      "date": "2026-11-23",
+      "title": "OKXICE、トークン化した米国株などの24時間取引を開始 113銘柄を順次提供",
+      "summary": "暗号資産取引所OKXとニューヨーク証券取引所の親会社ICEの合弁会社OKXICEは11月23日（米国時間）、トークン化した米国の株式やETFなどを24時間取引できる「Tokenized Securities Venue（TSV）」を、同日の米東部時間正午から提供すると発表しました。株式・ETF・ETPの計113銘柄が確定しており、同日から順次取引できるようになります。各トークンは実際の株式に1対1で裏付けられ、配当や議決権など株主としての権利が付くとしています。対象はOKXアプリで本人確認などを済ませた米国の利用者です。",
+      "category": "市場・取引所",
+      "sourceName": "OKX（公式発表）",
+      "sourceUrl": "https://www.okx.com/en-us/learn/okxice-tsv-launch-going-live",
+      "relatedSources": [
+        {
+          "name": "The Block",
+          "url": "https://www.theblock.co/news/business/2026-11-23-okxice-launches-tokenized-securities-venue-444898"
+        }
+      ],
+      "marketNote": "取引はOKXのイーサリアムL2「X Layer」上のUniswap v4の流動性プールで行われ、トークン化の基盤はSecuritizeが提供します。資産は利用者の自己管理型ウォレットで保有します。SECの一時的な適用除外に基づくもので、OKXICEは登録取引所やブローカーではなく、SECの承認を受けたものでもないと説明しています。銘柄の発行体・運用会社にはCoinbase、Circle、Robinhood、Fidelity Investments、Strategyなどが含まれます。The Blockによると、AppleやNVIDIAなど67社は自社株の取り扱いに異議を申し立てています。",
+      "tickers": [
+        "ICE",
+        "COIN",
+        "CRCL",
+        "HOOD",
+        "MSTR"
+      ],
+      "verifiedAt": "2026-11-24T05:50:00+09:00"
+    },
+    {
       "id": "2026-11-21-bitcoin-two-year-low-rebound",
       "date": "2026-11-21",
       "title": "ビットコイン、一時5万5,251ドルと約2年ぶり安値 その後6万ドル台を回復",
@@ -503,5 +527,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-23T07:18:00+09:00"
+  "updatedAt": "2026-11-24T05:50:00+09:00"
 }

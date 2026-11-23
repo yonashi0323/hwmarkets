@@ -1,8 +1,48 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T01:47:00+09:00",
+  "updatedAt": "2026-11-24T05:50:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-23-anthropic-claude-ship",
+      "date": "2026-11-23",
+      "title": "Anthropic、コードの確認から承認までを担う「Claude Ship」を公開 チームの方針に沿って定型的な変更を承認",
+      "summary": "Anthropicは11月23日（米国時間）、GitHubのプルリクエスト（コード変更の提案）をAIが確認・修正し、チームが定めた方針に沿って承認までを判断する「Claude Ship」をベータ版として公開しました。既に一般提供中の「Code Review」に、失敗した自動テストやコードの競合、指摘への対応を担う「PR Steward」と、方針ファイルに基づき定型的な変更を自ら承認し、リスクの高い変更は人の確認に回す「Claude Approvals」を組み合わせます。PR Stewardは自らは承認やマージ（統合）をしない設計で、変更内容と取り消し方法をコメントで示します。",
+      "category": "AIサービス",
+      "sourceName": "Anthropic（Claude公式サイト）",
+      "sourceUrl": "https://claude.com/resources/articles/introducing-claude-ship",
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-launches-claude-ship-to-help-developers-ship-code-faster-5046300"
+        }
+      ],
+      "marketNote": "Claude TeamとEnterpriseプランで、GitHub上のリポジトリ向けに提供されます。Code Reviewは一般提供、PR StewardとClaude Approvalsはベータ版です。利用料はトークン量に応じた従量課金で、管理者は利用上限を設定できます。同社は、まず承認判断を記録のみ行うモードで試すよう推奨しています。",
+      "tickers": [
+        "ANT"
+      ],
+      "verifiedAt": "2026-11-24T05:50:00+09:00"
+    },
+    {
+      "id": "2026-11-23-applied-digital-150mw-hyperscaler-lease",
+      "date": "2026-11-23",
+      "title": "Applied Digital、大手ハイパースケーラーとAIデータセンターの18年賃貸契約 基本期間の収入は約54億ドル",
+      "summary": "米AIデータセンター運営のApplied Digitalは11月23日、投資適格の大手ハイパースケーラー（大規模クラウド事業者）1社と、150MW分のIT容量を18年間貸し出す契約を結んだと発表しました。基本期間の契約収入は約54億ドルで、延長オプションをすべて行使すると期間は計33年、収入は約127億ドルになります。相手企業の名前は明らかにしていません。これにより同社の契約済み基本期間リース収入は410億ドルを超え、延長分を含めると約1000億ドルになるとしています。",
+      "category": "半導体・インフラ",
+      "sourceName": "Applied Digital（ニュースリリース）",
+      "sourceUrl": "https://ir.applieddigital.com/news-events/press-releases/detail/165/applied-digital-secures-new-150-mw-18-year-lease-with",
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/stock-market-news/applied-digital-signs-54-billion-ai-data-center-lease-with-hyperscaler-5045760"
+        }
+      ],
+      "marketNote": "同社は、今回の契約は従来より高い価格など有利な条件だとしています。容量の引き渡しは2028年前半に始まる見込みですが、開発の進捗や電力会社との調整、規制当局の承認が前提です。建設資金はMacquarie Asset Managementとの50億ドルの出資枠と、その後のプロジェクトファイナンスで賄う計画です。契約済み収入の約75%は投資適格の顧客によるものだとしています。",
+      "tickers": [
+        "APLD"
+      ],
+      "verifiedAt": "2026-11-24T05:50:00+09:00"
+    },
     {
       "id": "2026-11-23-nvidia-reinstates-jensen-huang-ceo",
       "date": "2026-11-23",
