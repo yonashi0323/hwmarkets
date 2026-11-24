@@ -1,8 +1,54 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T07:22:00+09:00",
+  "updatedAt": "2026-11-25T01:51:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-23-oregon-virginia-sue-spacex-grok",
+      "date": "2026-11-23",
+      "title": "米オレゴン州とバージニア州、SpaceXを提訴 Grokによる性的画像の生成と安全性の説明を問題視",
+      "summary": "米バージニア州のジョーンズ司法長官とオレゴン州のレイフィールド司法長官は11月23日、SpaceXと傘下のX、旧xAI（現SpaceX Super Intelligence）などを、それぞれの州裁判所に提訴したと発表しました。両州は、同社のAI「Grok」が本人の同意のない性的画像や児童性的虐待コンテンツ（CSAM）を生成できる状態だったにもかかわらず、同社が安全対策は十分だと説明して消費者を誤認させたと主張しています。バージニア州は消費者保護法、オレゴン州は不公正取引慣行法の違反を訴え、差し止め、民事制裁金、不当利得の返還などを求めています。裁判所の判断はまだ出ていません。",
+      "category": "規制・政策",
+      "sourceName": "米バージニア州司法長官室 プレスリリース",
+      "sourceUrl": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "relatedSources": [
+        {
+          "name": "米オレゴン州司法省 プレスリリース",
+          "url": "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-takes-legal-action-against-grok-for-failing-to-block-child-exploitation/"
+        },
+        {
+          "name": "訴状（オレゴン州司法省、PDF）",
+          "url": "https://doj.state.or.us/wp-content/uploads/2026/11/ODOJ-Grok-Complaint-Final-Submitted-2026-11-22.pdf"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
+        }
+      ],
+      "marketNote": "CNBCによると、Grokを巡って州がSpaceXを提訴したのは両州が初めてです。訴状はバージニア州がリッチモンド市巡回裁判所、オレゴン州がマルトノマ郡巡回裁判所に提出しました（オレゴン州は22日夜に提出）。バージニア州は消費者への原状回復も求めています。SpaceX Super Intelligenceの広報担当者はCNBCに対し、安全対策を破ってこうした画像を作ろうとする行為には、アカウントへの措置や法執行機関への通報で対応していると説明しました。",
+      "tickers": [],
+      "verifiedAt": "2026-11-25T01:51:00+09:00"
+    },
+    {
+      "id": "2026-11-23-deepmind-quantum-algorithms-agents",
+      "date": "2026-11-23",
+      "title": "Google DeepMind、Gemini 4のAIエージェント群で量子アルゴリズムを改良 核融合関連の計算コストを11.8分の1に",
+      "summary": "Google DeepMindは11月23日、Gemini 4を使ったAIエージェントのチームに量子アルゴリズムを改良させ、その正しさとコストを定理証明支援系Leanで数学的に証明したとする研究を発表しました。レーザーで燃料を圧縮する慣性閉じ込め核融合の重要な性質を計算する量子回路では、計算コストを11.8分の1に減らし、必要な誤り訂正済み量子ビットを5,650から4,338に削減したとしています。研究に使ったLeanのライブラリ、問題設定、検証済みの解はGitHubで公開します。",
+      "category": "AIモデル",
+      "sourceName": "Google DeepMind（公式ブログ）",
+      "sourceUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "relatedSources": [
+        {
+          "name": "論文（arXiv）",
+          "url": "https://arxiv.org/abs/2611.09822"
+        }
+      ],
+      "marketNote": "創薬で重要な酵素シトクロムP450のシミュレーションでは2.5倍の改善（量子ビットは481から333に削減）、光に反応する分子のシミュレーションでは8倍の低コスト化、グローバーのアルゴリズムの特定の実装で2.57倍、量子計算で多用される逆正弦（arcsin）の計算で290倍の高速化を報告しています。Google Quantum AIとの共同研究です。同社は、改良後でもこれらを科学シミュレーションに使うには、最初の誤り訂正量子コンピューターが提供できる見込みの計算資源を上回るとしています。",
+      "tickers": [
+        "GOOGL"
+      ],
+      "verifiedAt": "2026-11-25T01:51:00+09:00"
+    },
     {
       "id": "2026-11-23-us-stocks-rebound-huang-return",
       "date": "2026-11-23",
