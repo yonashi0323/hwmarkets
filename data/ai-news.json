@@ -1,8 +1,48 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T01:51:00+09:00",
+  "updatedAt": "2026-11-25T06:13:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-24-dell-q3-fy27-results",
+      "date": "2026-11-24",
+      "title": "Dell、8〜10月期売上高が前年比2倍超の549億ドル AIサーバー受注残は過去最高の1,323億ドル",
+      "summary": "Dell Technologiesは11月24日（米国時間）、2027会計年度第3四半期（8〜10月期）決算を発表しました。売上高は前年同期比103%増の549億ドルと過去最高で、純利益は266%増の56億7,300万ドルでした。AIサーバーの売上高は291%増の220億ドルとなり、四半期中に602億ドルのAI関連受注を獲得して、期末のAI受注残は過去最高の1,323億ドルに達しました。通期の売上高見通しは従来の1,920億ドルから2,020億ドル（前年比78%増）に、AIサーバー売上高の見通しは740億ドルから780億ドルに引き上げました。",
+      "category": "決算・設備投資",
+      "sourceName": "Dell Technologies（決算発表）",
+      "sourceUrl": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+      "relatedSources": [],
+      "marketNote": "サーバー・ネットワーク・ストレージ部門（ISG）の売上高は198%増の420億ドル、営業利益率は17.0%（前年同期は12.4%）でした。一方、PC部門（CSG）の売上高は3%増の129億ドルにとどまり、営業利益は6%減りました。調整後の1株利益は265%増の9.45ドルです。11月〜2027年1月期の売上高は前年同期比69%増の563億ドルを見込みます。取締役会は自社株買いの枠を250億ドル追加することを承認しました。",
+      "tickers": [
+        "DELL"
+      ],
+      "verifiedAt": "2026-11-25T06:13:00+09:00"
+    },
+    {
+      "id": "2026-11-24-anthropic-below-ipo-price",
+      "date": "2026-11-24",
+      "title": "Anthropic株、上場4営業日目で公開価格83ドルを割り込む 一時75ドル台まで下落",
+      "summary": "ロイターとCNBCによると、11月19日にナスダックに上場したAnthropic（銘柄コードANT）の株価は24日（米国時間）の取引で大きく下げ、公開価格の83ドルを下回りました。下落率は一時12〜13%に達し、75ドル台まで下げる場面がありました。上場初日に111.50ドルの初値をつけて以降、下落が続いています。ロイターは、この急落でAI企業の割高な評価や巨額のインフラ投資への懸念が一段と強まったと伝え、初めて上場したフロンティアAI企業であるAnthropicはAI業界全体の指標とみられているとしています。",
+      "category": "資金調達・IPO",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+      "relatedSources": [
+        {
+          "name": "Reuters（Investing.com掲載）",
+          "url": "https://www.investing.com/news/economy-news/anthropic-breaks-below-83-ipo-price-as-debut-rally-unravels-5047654"
+        },
+        {
+          "name": "CNBC（オプション取引）",
+          "url": "https://www.cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html"
+        }
+      ],
+      "marketNote": "CNBCによると、公開価格を下回るまでにかかった日数は、6月に上場したSpaceXの21営業日に対し、Anthropicは4日でした。ロイターによると、ダリオ・アモデイCEOとダニエラ・アモデイ社長は上場翌日、それぞれ337万株超（2億8,000万ドル超相当）を引受会社に売却したことが届け出で明らかになっています。MSCIは11月30日の終値時点でAnthropicを世界標準指数に組み入れる予定です。同日はNVIDIA株も前日の急騰から反落し、ロイターによると7%超下げました。株価は確認時点の情報で、終値ではありません。",
+      "tickers": [
+        "ANT",
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-25T06:13:00+09:00"
+    },
     {
       "id": "2026-11-23-oregon-virginia-sue-spacex-grok",
       "date": "2026-11-23",
