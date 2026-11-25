@@ -3,6 +3,27 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-25-bitcoin-etf-record-monthly-outflows",
+      "date": "2026-11-25",
+      "title": "米ビットコイン現物ETF、11月の資金流出が上場来最大ペース ビットコインは2022年6月以来の大幅な月間下落に",
+      "summary": "ブルームバーグの集計によると、米国上場のビットコイン現物ETFからは11月23日までに差し引き47億1,000万ドルが流出し、2024年1月の上場以来で最悪の月になる見通しです。最大のブラックロック「iシェアーズ・ビットコイン・トラスト」は11月に約40億ドルの解約がありました。ビットコインは11月に約23%下落し、2022年6月以来の大幅な月間下落となるペースです。CoinDeskはFarside Investorsのデータとして、24日も2億3,140万ドルの流出で6営業日連続となり、11月の流出額は約49億4,000万ドルになったと伝えています。",
+      "category": "市場・取引所",
+      "sourceName": "ブルームバーグ（The Straits Times掲載）",
+      "sourceUrl": "https://www.straitstimes.com/business/bitcoin-funds-head-for-worst-month-as-outflows-near-us5-billion",
+      "relatedSources": [
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes"
+        }
+      ],
+      "marketNote": "ビットコインは25日のシンガポール時間午後1時時点で約5万9,200ドルでした。ブルームバーグは、NVIDIAのフアン氏CEO復帰を受けた23日の反発分をすでに失ったとし、ハッキング被害、利上げ観測、中間選挙後の規制強化懸念を逆風に挙げています。Glassnodeは米国の需要不足を指摘しています。CoinDeskによると、24日の流出のうちブラックロックのIBITが1億7,530万ドルを占めました。",
+      "tickers": [
+        "BTC",
+        "IBIT"
+      ],
+      "verifiedAt": "2026-11-26T07:22:00+09:00"
+    },
+    {
       "id": "2026-11-25-sbi-smfg-solana-global-launch",
       "date": "2026-11-25",
       "title": "SBIと三井住友FG、Solana財団との合弁「SBI Solana Global」を本格始動 ステーブルコイン決済やトークン化を展開",
@@ -649,5 +670,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-26T05:53:00+09:00"
+  "updatedAt": "2026-11-26T07:22:00+09:00"
 }

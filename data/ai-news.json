@@ -1,8 +1,54 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T01:53:00+09:00",
+  "updatedAt": "2026-11-26T07:22:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-25-sp-nvidia-creditwatch-negative",
+      "date": "2026-11-25",
+      "title": "S&P、NVIDIAの格付け「AA」をクレジットウォッチ・ネガティブに指定 経営・ガバナンス体制を問題視 株価は約4%安",
+      "summary": "ロイターによると、S&Pグローバル・レーティングは11月25日（米国時間）、NVIDIAの信用格付けを格下げの可能性が高いことを示す「クレジットウォッチ・ネガティブ」に指定しました。CEOのジェンスン・フアン氏の退任と復帰を経ても、経営陣の行動規範に対する取締役会の監督を巡る疑問に十分な答えが出ていないとしています。CNBCによると、現在の発行体格付けは「AA」です。S&Pは取締役会の独立性、経営陣の監督、後継者計画について、取締役会・経営陣と協議する方針です。",
+      "category": "規制・政策",
+      "sourceName": "ロイター（Investing.com掲載）",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/sp-global-places-nvidia-rating-on-creditwatch-negative-on-rising-management-and-governance-risks-5051352",
+      "relatedSources": [
+        {
+          "name": "CNBC（米国株ライブ）",
+          "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+        },
+        {
+          "name": "日経アジア",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-s-shares-drop-credit-rating-on-watch-two-days-after-huang-s-return"
+        }
+      ],
+      "marketNote": "Investing.comによると、S&Pは今後90日以内に格下げする場合も原則1段階にとどまるとしており、日経アジアは1段階下げなら「AA-」になると伝えています。競争力や財務内容の評価は現時点で変えていません。CNBCによると、同日のNVIDIA株は約4%下落し、ナスダック総合指数は一時4.6%安まで売られた後、0.62%安の2万3,585.80で終えました。S&P500は0.25%安、ダウ平均は0.33%高の5万182.95ドルでした。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-26T07:22:00+09:00"
+    },
+    {
+      "id": "2026-11-25-fcc-spacex-starmind",
+      "date": "2026-11-25",
+      "title": "米FCC、SpaceXの宇宙データセンター衛星「Starmind」100万基の計画を条件付きで承認",
+      "summary": "米連邦通信委員会（FCC）の宇宙局は11月25日、SpaceXが申請していた宇宙空間でデータセンターとして運用する衛星100万基のコンステレーション「Starmind」について、条件付きで一部を承認し、一部の判断を保留する命令を公表しました。高度約500〜1,002kmへの配備を前提に、予備・緊急用の運用管制（TT&C）向けにKa帯の電波利用を認めます。通常の通信には光リンクを使う計画です。FCCのカー委員長は、Starmindや競合の衛星群が「超知能（Super Intelligence）」で米国の優位を広げるとX上で述べました。",
+      "category": "半導体・インフラ",
+      "sourceName": "米連邦通信委員会（FCC）",
+      "sourceUrl": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+      "relatedSources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+        }
+      ],
+      "marketNote": "承認の条件として、2033年11月25日までに1基、2035年までに10%、2038年までに50%、2040年までに全基を配備・運用しなければ免許は失効します。高度600km超の衛星を大気圏再突入以外の方法で処分するための規則の適用除外申請は判断が保留され、該当する衛星を配備する前に改めて申請が必要です。CNBCによると、Amazon（Kuiper）、Viasat、米国天文学会が却下を求めていました。CNBCによると、SpaceX株は同日の取引中に1%超上昇しました。",
+      "tickers": [
+        "SPCX",
+        "AMZN",
+        "VSAT"
+      ],
+      "verifiedAt": "2026-11-26T07:22:00+09:00"
+    },
     {
       "id": "2026-11-25-commerce-entity-list-megaspeed",
       "date": "2026-11-25",
