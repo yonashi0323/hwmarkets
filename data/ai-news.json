@@ -1,8 +1,44 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T07:13:00+09:00",
+  "updatedAt": "2026-11-26T01:53:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-25-commerce-entity-list-megaspeed",
+      "date": "2026-11-25",
+      "title": "米商務省、シンガポールのMegaspeedなど東南アジア7社をエンティティリストに追加 先端半導体の転用リスクを理由に",
+      "summary": "米商務省産業安全保障局（BIS）は、シンガポールのクラウド事業者Megaspeed Internationalなど東南アジアの7社を、輸出管理の対象リスト「エンティティリスト」に追加する規則を11月25日付の官報（Federal Register）に掲載しました。規則は11月23日付で発効しています。理由として、先端コンピューティング製品を許可されていない用途や利用者へ転用する「重大なリスク」を挙げました。対象企業へは米輸出管理規則（EAR）の対象となるすべての品目の輸出に許可が必要となり、申請は原則不許可の方針で審査されます。",
+      "category": "規制・政策",
+      "sourceName": "米連邦官報（米商務省BIS）",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list",
+      "relatedSources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+        }
+      ],
+      "marketNote": "対象はマレーシアの区分でMSFusion、PT Megaspeed International、Speedmatrixの3社、シンガポールでMegaspeed International、Apex Enterprise Solutions (Singapore)、Swiftdataの3社、タイでMegaspeed (Thailand)の1社です。CNBCによると、Megaspeedの元CEOアリス・フアン氏は米当局の捜査対象で、NVIDIAのジェンスン・フアン氏が一時CEOを退いた問題の当事者です。米商務省と司法省の共同声明では、商務省が2024年にMegaspeedの調査を始め、NVIDIAは2025年6月に同社を販売禁止先に指定していました。CNBCはReutersの報道として、Apexはアリババの子会社で、アリババは規制対象の半導体を転用したことはないとして法的手段を尽くす考えを示したと伝えています。",
+      "tickers": [
+        "NVDA",
+        "BABA"
+      ],
+      "verifiedAt": "2026-11-26T01:52:00+09:00"
+    },
+    {
+      "id": "2026-11-24-hp-q4-fy26-results",
+      "date": "2026-11-24",
+      "title": "HP、8〜10月期売上高は9.3%増の160億ドル AI PCが出荷の6割近くに",
+      "summary": "HP Inc.は11月24日（米国時間）、2026会計年度第4四半期（8〜10月期）決算を発表しました。売上高は前年同期比9.3%増の160億ドル、調整後1株利益は10.8%減の0.83ドルでした（関税還付による0.15ドルの押し上げを含む）。PC部門の売上高は14%増の118億ドルで、法人向けが23%伸びた一方、出荷台数は29%減りました。印刷部門の売上高は1%減の43億ドルでした。暫定CEOのブルース・ブルサード氏は、AI PCが出荷の60%近くに達したと述べ、メモリーとストレージのコスト上昇への対策を進めているとしました。",
+      "category": "決算・設備投資",
+      "sourceName": "HP Inc.（決算発表）",
+      "sourceUrl": "https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--Reports-Fiscal-2026-Full-Year-and-Fourth-Quarter-Results-Announces-Dividend-Increase/default.aspx",
+      "relatedSources": [],
+      "marketNote": "2026年度通期の売上高は9.5%増の605億ドル、調整後1株利益は3.33ドルでした。2027年度の調整後1株利益は3.15〜3.45ドル、11月〜2027年1月期は0.66〜0.76ドルを見込みます。2027年度からは株式報酬費用を調整後の利益から除く方式に変更します。カレン・パークヒルCFOは、見通しにはコストと需要の圧迫が続くという慎重な見方を反映したと説明しました。四半期配当は1株0.31ドルに引き上げました。",
+      "tickers": [
+        "HPQ"
+      ],
+      "verifiedAt": "2026-11-26T01:52:00+09:00"
+    },
     {
       "id": "2026-11-24-openai-gpt6-protein-design",
       "date": "2026-11-24",
