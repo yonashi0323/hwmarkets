@@ -3,6 +3,51 @@
   "editorialPolicy": "相場に影響する大きな暗号資産ニュースのみ。取引所・発行体・財団の公式発表、SEC・CFTC・金融庁などの規制当局や捜査機関、ETF発行体の提出書類、または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
     {
+      "id": "2026-11-25-sbi-smfg-solana-global-launch",
+      "date": "2026-11-25",
+      "title": "SBIと三井住友FG、Solana財団との合弁「SBI Solana Global」を本格始動 ステーブルコイン決済やトークン化を展開",
+      "summary": "SBIホールディングス、三井住友フィナンシャルグループ（SMFG）、Solana財団は11月25日、3社による新たな合弁事業体制への移行に向けた一連の契約を完了し、SBI R3 Japanを「SBI Solana Global」に改称して本格始動したと発表しました。同社はSBIグループとSMBCグループの金融事業の知見・ネットワークと、Solanaのブロックチェーン基盤を組み合わせ、ステーブルコインを使った決済、金融資産・実物資産のトークン化、オンチェーンでの資産運用などを手がけます。日本を起点に、アジアや世界の市場への展開を目指すとしています。",
+      "category": "決算・企業",
+      "sourceName": "SBIホールディングス・三井住友FG・Solana財団（共同発表）",
+      "sourceUrl": "https://www.sbigroup.co.jp/news/pdf/2026/1125_a.pdf",
+      "relatedSources": [
+        {
+          "name": "SBI Solana Global（公式発表）",
+          "url": "https://sbisolana.co.jp/news/2026-11-sbi-solana-global-launch/"
+        }
+      ],
+      "marketNote": "事業領域は、ステーブルコインによる国内外の決済・送金基盤（AIエージェントによる少額決済への対応を含む）、債券・ファンド・融資債権などの金融資産のトークン化、コモディティや各種権利など実物資産のトークン化、ステーブルコインやトークン化資産を使った資産運用サービスの検討・事業化の4つです。Solana財団は同社と協業して事業拡大を支援します。発表では3社の出資比率や出資額、具体的なサービスの開始時期は示されていません。",
+      "tickers": [
+        "8473.T",
+        "8316.T"
+      ],
+      "verifiedAt": "2026-11-26T05:53:00+09:00"
+    },
+    {
+      "id": "2026-11-25-nvidia-crypto-mining-suit-settlement",
+      "date": "2026-11-25",
+      "title": "NVIDIA、暗号資産マイニング需要の開示を巡る株主集団訴訟で2億9,000万ドルの和解へ 裁判所の承認が必要",
+      "summary": "NVIDIAは、2017〜18年に暗号資産のマイニング（採掘）向け需要がゲーム向けGPUの売上高をどの程度押し上げていたかについて投資家を誤解させたとされる株主集団訴訟で、2億9,000万ドルを支払って和解することで合意しました。原告側が11月24日（米国時間）、カリフォルニア州北部地区連邦地裁に和解の予備承認を求める申し立てを提出しました。和解の成立には裁判所の承認が必要です。ロイターによると、NVIDIAは不正行為を否定したうえで和解に合意しました。",
+      "category": "決算・企業",
+      "sourceName": "Bloomberg Law",
+      "sourceUrl": "https://news.bloomberglaw.com/capital-markets/nvidia-settles-investor-suit-over-crypto-mining-for-290-million",
+      "relatedSources": [
+        {
+          "name": "Reuters（Valor Econômico掲載・ポルトガル語）",
+          "url": "https://valor.globo.com/empresas/noticia/2026/11/25/nvidia-aceita-acordo-de-us-290-milhes-em-ao-coletiva-de-investidores-de-2018.ghtml"
+        },
+        {
+          "name": "Kessler Topaz（原告側代理人の発表）",
+          "url": "https://www.ktmc.com/news/kessler-topaz-secures-290-million-settlement-for-nvidia-investors-following-victory-at-u-s-supreme-court/"
+        }
+      ],
+      "marketNote": "訴訟は2018年の暗号資産相場の急落でマイニング向けGPUの需要が落ち込んだことを巡るもので、ジェンスン・フアンCEOも被告です。NVIDIAは連邦最高裁まで争いましたが、最高裁は2024年12月に上告を「不適切に受理した」として却下し、審理が地裁で続いていました。ロイターによると、原告側弁護士は和解金の最大21.4%（6,200万ドル）を報酬として求める方針で、今回の和解はフアン氏を巡る現在の問題とは関係がありません。原告側代理人のKessler Topazは、承認されれば同地裁で1995年の証券訴訟改革法以降7番目に大きい証券集団訴訟の和解になるとしています。",
+      "tickers": [
+        "NVDA"
+      ],
+      "verifiedAt": "2026-11-26T05:53:00+09:00"
+    },
+    {
       "id": "2026-11-24-korea-fsc-digital-asset-bill",
       "date": "2026-11-24",
       "title": "韓国金融委、デジタル資産法の政府案を公表 ウォン建てステーブルコインは銀行が過半出資する連合から発行",
@@ -604,5 +649,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-25T07:13:00+09:00"
+  "updatedAt": "2026-11-26T05:53:00+09:00"
 }
