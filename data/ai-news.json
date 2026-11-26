@@ -1,8 +1,56 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T07:22:00+09:00",
+  "updatedAt": "2026-11-27T05:49:00+09:00",
   "editorialPolicy": "大きなAIニュースのみ。一次情報（企業の公式発表・IR・SEC提出書類・政府/規制当局）または信頼性の高い大手報道（Reuters、Bloomberg、AP、日経、FT、WSJ、CNBC）に限定し、掲載前に出典ページを開いて内容を確認しています。",
   "items": [
+    {
+      "id": "2026-11-26-nvidia-halts-server-shipments-southeast-asia",
+      "date": "2026-11-26",
+      "title": "NVIDIA、マレーシアなど東南アジア4カ国向けサーバー出荷を停止と英FT報道 米国の新たな輸出規制を受け",
+      "summary": "ロイターによると、英フィナンシャル・タイムズ（FT）は11月26日、NVIDIAが製造パートナーに対し、同社製チップを搭載したサーバーのマレーシア、シンガポール、タイ、インドネシアへの出荷を止めるよう伝えたと、関係者3人の話として報じました。DellやSupermicroなどのパートナーは、4カ国の顧客にNVIDIAが注文品の出荷を認めないと説明しています。先週発効した米国の新たな輸出規制は、これらの国への先端半導体の出荷に許可を求めており、停止が一時的なものかどうかは明らかになっていません。",
+      "category": "半導体・インフラ",
+      "sourceName": "ロイター（Investing.com掲載）",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports-5052112",
+      "relatedSources": [
+        {
+          "name": "フィナンシャル・タイムズ",
+          "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370"
+        },
+        {
+          "name": "DatacenterDynamics",
+          "url": "https://www.datacenterdynamics.com/en/news/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-in-wake-of-new-dept-of-commerce-export-rule-report/"
+        }
+      ],
+      "marketNote": "FTによると、NVIDIAはシンガポール子会社を通じて2025年に前年比72%増の1,040億ドルの売上高を計上しており、この中には台湾や中国向けの一部も含まれます。米商務省はクラウド事業者に対し、利用者に規制対象の企業が含まれないことを示して許可を得るまで90日の期限を設けています。FTは、シンガポールのクラウド企業AolaniがByteDance向けに計画していた計算能力の提供にも影響が出ていると伝えました。NVIDIAはFTへのコメントを控え、DellとSupermicroは回答していません。米国市場は26日、感謝祭で休場でした。",
+      "tickers": [
+        "NVDA",
+        "DELL",
+        "SMCI"
+      ],
+      "verifiedAt": "2026-11-27T05:49:00+09:00"
+    },
+    {
+      "id": "2026-11-26-boe-fsr-ai-financing-risk",
+      "date": "2026-11-26",
+      "title": "英イングランド銀行、AI向け資金調達の拡大が金融システムのリスクを高めると警告 大手クラウドの社債発行は今年3,050億ドル超",
+      "summary": "英イングランド銀行（BoE）は11月26日に公表した半期ごとの「金融安定報告」で、AI投資の資金調達が急速に拡大し、その形態が「ますます複雑で循環的かつ不透明」になっていることで金融システム内のつながりが深まり、ある分野のストレスが他に波及しやすくなっていると指摘しました。ハイパースケーラー（大手クラウド事業者）の社債発行額は2026年に3,050億ドルを超え、世界の投資適格債発行の約8%を占める見通しです。最近の下落後もAI・テクノロジー関連企業の株価評価は一部の指標で割高で、将来の利益への強い期待を織り込んでいるとしました。",
+      "category": "規制・政策",
+      "sourceName": "イングランド銀行（金融安定報告）",
+      "sourceUrl": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026",
+      "relatedSources": [
+        {
+          "name": "金融安定報告（イングランド銀行、PDF）",
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/financial-stability-report-november-2026.pdf"
+        },
+        {
+          "name": "ロイター（Investing.com掲載）",
+          "url": "https://www.investing.com/news/economy-news/bank-of-england-sees-growing-financial-risks-as-ai-borrowing-surges-5052592"
+        }
+      ],
+      "marketNote": "BoEは内部推計として、ハイパースケーラーの潜在的なエクスポージャーは債務と簿外の契約上の約束を合わせて4兆ドル強に上るとし、AIの将来収益の見通しが下方修正された場合などに圧迫される可能性を挙げました。ロイターによると、ブラッドック副総裁は、投資家心理がAIに対して悪化しても英国の金融システムが耐えられるようにすることが最優先課題だと述べました。報告では、英大手銀行のTier1自己資本規制を平時でリスク加重資産の約0.5%相当引き下げる方針も示しました。",
+      "tickers": [],
+      "verifiedAt": "2026-11-27T05:49:00+09:00"
+    },
     {
       "id": "2026-11-25-sp-nvidia-creditwatch-negative",
       "date": "2026-11-25",

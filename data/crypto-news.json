@@ -69,6 +69,30 @@
       "verifiedAt": "2026-11-26T05:53:00+09:00"
     },
     {
+      "id": "2026-11-24-us-house-strategic-bitcoin-reserve-bill-reported",
+      "date": "2026-11-24",
+      "title": "米下院委員会、戦略的ビットコイン準備を法制化する法案を本会議に報告 政府保有BTCの売却を20年禁止",
+      "summary": "米下院金融サービス委員会は11月24日、政府が保有するビットコインを管理する「戦略的ビットコイン準備」を法律で設ける「American Reserve Modernization Act of 2026」（H.R.8957）を修正のうえ本会議に報告し、法案は下院の議事日程（Union Calendar）に載って本会議で採決できる状態になりました。報告された法案は、財務長官が施行から180日以内に財務省内に準備を設け、預け入れたビットコインを施行から少なくとも20年間保有し、その間は売却・交換・担保差し入れなどを一切禁じる内容です。本会議の採決日は決まっておらず、成立には下院と上院の可決、大統領の署名が必要です。",
+      "category": "規制・政策",
+      "sourceName": "米議会（Congress.gov）",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8957/all-info",
+      "relatedSources": [
+        {
+          "name": "委員会報告後の法案本文（米政府出版局）",
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr8957rh/html/BILLS-119hr8957rh.htm"
+        },
+        {
+          "name": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/11/26/strategic-bitcoin-reserve-bill-to-lock-up-u-s-government-held-bitcoin-for-20-years-goes-to-full-house"
+        }
+      ],
+      "marketNote": "委員会は9月16日に28対21で法案を可決しており、CoinDeskによると賛成は全員が共和党、反対は全員が民主党でした。20年の保有期間の後は、財務長官が2年ごとに準備の最大10%の売却を提案できます。戦略的ビットコイン準備は2025年3月の大統領令で既に設けられており、法律にすることで将来の撤回を防ぐ狙いがあります。現在の議会の会期は2027年1月3日に終わるため、CoinDeskは成立までの日程が厳しいと指摘しています。",
+      "tickers": [
+        "BTC"
+      ],
+      "verifiedAt": "2026-11-27T05:49:00+09:00"
+    },
+    {
       "id": "2026-11-24-korea-fsc-digital-asset-bill",
       "date": "2026-11-24",
       "title": "韓国金融委、デジタル資産法の政府案を公表 ウォン建てステーブルコインは銀行が過半出資する連合から発行",
@@ -670,5 +694,5 @@
       "verifiedAt": "2026-11-05T09:16:00+09:00"
     }
   ],
-  "updatedAt": "2026-11-26T07:22:00+09:00"
+  "updatedAt": "2026-11-27T05:49:00+09:00"
 }
